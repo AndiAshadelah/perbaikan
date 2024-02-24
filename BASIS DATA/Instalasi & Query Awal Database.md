@@ -188,7 +188,6 @@ describe [nama table];
 ![[Pasted image 20240204194049.png]]
 ### Analisis Kesimpulan
 Perintah "DESCRIBE" digunakan dalam SQL untuk mendapatkan informasi tentang struktur kolom dalam sebuah  tabel. Ini berguna untuk mengetahui nama kolom, tipe data, dan batasan yang diterapkan pada kolom tersebut. Berikut adalah penjelasan mengenai penggunaan perintah "DESCRIBE":
-
 1. Kata "DESCRIBE" diikuti oleh nama tabel yang ingin di periksa. Misalnya, jika Anda ingin mengetahui informasi mengenai tabel dengan nama ===mobil===.
 2. Setelah menjalankan perintah "DESCRIBE", Anda akan mendapatkan hasil yang menampilkan informasi mengenai kolom-kolom dalam tabel tersebut. Informasi yang biasanya ditampilkan antara lain:
 - Nama kolom
@@ -229,9 +228,10 @@ Unique Constraint:
 >> karena char merupakan tipe data yang bisa digabung antara karakter dan angka
 
 >[! faq]- Mengapa hanya kolom no_telp yang menggunakan constraint UNIQUE?
->> nomor telepon tidak ada yang sama
+>> Constraint `UNIQUE` pada kolom `no_telp` digunakan untuk mengharuskan bahwa setiap nomor telepon yang ada pada tabel pelanggan harus unik. Ini berarti bahwa tidak ada dua pelanggan yang memiliki nomor telepon yang sama.
 
 >[! faq]- Mengapa kolom no_telp tidak memakai constraint NOT NULL, sementara kolom lainnya menggunakan constraint tersebut
+>> Kolom `no_telp` pada tabel pelanggan tidak memakai constraint `NOT NULL` karena mungkin ada beberapa kasus dimana pelanggan tidak memiliki nomor telepon. Misalnya, pelanggan yang baru saja mendaftar dan belum memiliki nomor telepon, atau pelanggan yang tidak ingin menggunakan nomor telepon untuk kontak.
 
 # Insert
 ## Insert 1 data
@@ -248,10 +248,9 @@ values (1, 'adel', 'hrv', '081243935227');
 ### Hasil
 ![[Pasted image 20240206143638.png]]
 ### Analisis
-Perintah `INSERT INTO` dalam MySQL digunakan untuk menyisipkan (insert) data baru ke dalam sebuah tabel dalam basis data MySQL. 
-
+ Perintah `INSERT INTO` dalam MySQL digunakan untuk menyisipkan data baru ke dalam sebuah tabel dalam basis data MySQL. Dengan perintah `(1, 'adel', 'hrv', '081243935227');`, kita dapat menambahkan baris-baris data baru ke dalam tabel yang telah kita tentukan.
 ### Kesimpulan
-
+`insert into` digunakan untuk menambahkan data
 ## Insert >1 data
 ### Struktur Query 
 ```mysql
@@ -270,6 +269,10 @@ values (2, 'alwi', 'rizkyansyah', '0823456780'),
 ### Hasil 
 ![[Pasted image 20240206144557.png]]
 ### Analisis
+ 1. `insert into` merupakan perintah yang digunakan untuk menginput isi tabel
+ 2. `pelanggan` nama tabel yang akan di isi
+ 3. `values` digunakan untuk memasukkan nilai ke dalam field
+ 4. `(2, 'alwi', 'rizkyansyah', '0823456780'), (3, 'adel', 'anil', '08234479423'), (4, 'aril', 'haq', '0823456280');` merupakan nilai yang akan di masukkan
 ### Kesimpulan
 
 ## Menyebut kolom
@@ -285,9 +288,15 @@ insert into pelanggan
 ```
 ### Hasil
 ![[Pasted image 20240206145824.png]]
-
 ### Analisis 
+**kolom yang akan di isi :**
+- id_pelanggan: Nilai 5
+- nama_depan: 'azikin'
+- nama_belakang: 'sofyan'
+- no_telp: '93629205'
+Pada sintaks setelah perintah `INSERT INTO akun` terdapat sintaks `(id_pelanggan, nama_depan, nama_belakang, no_telp)`. Sintaks inilah yang mengidentifikasi nama kolom yang mau ditambahkan. Ditekankan juga bahwa urutan kolom yang disebutkan tidak berurutan. Hal ini terjadi jika sekitainya kita kan menginput sebuah data yang urutan judul kolomnya tidak sesuai dengan urutan tabel di sql.
 ### Kesimpulan 
+kita dapat menambahkan nilai dengan menyebut nama kolom tersebut.
 
 # SELECT
 ## Seluruh data
@@ -302,6 +311,10 @@ select * from pelanggan;
 ```
 ### Hasil
 ![[Pasted image 20240206152928.png]]
+### Analisis
+- `SELECT * FROM` adalah perintah untuk melihat item tabel
+- `akun` adalah nama tabel yang datanya mau dilihat.
+### Kesimpulan
 
 ## Data kolom tertentu 
 ### Struktur 
@@ -316,6 +329,9 @@ select nama_depan from pelanggan;
 ```
 ### Hasil
 ![[Pasted image 20240206151322.png]]
+### Analisis
+untuk menampilkan data nama saja caranya yaitu menggunakan perintah `SELECT` kemudian diikuti oleh judul kolom yang ingin ditampilkan, yaitu `nama_depan` Kemudian kita melanjutkannya dengan mengetik perintah `FROM` dan diikuti dengan nama tabel. Dengan cara seperti ini kita telah menampilkan item data pada kolom `nama_depan` pada tabel `pelanggan`.
+### Kesimpulan
 
 ## Klausa WHERE
 ### Struktur 
@@ -332,7 +348,13 @@ where id=2;
 
 ### Hasil
 ![[Pasted image 20240206153119.png]]
-
+### Analisis
+1. `SELECT`: Kata kunci ini digunakan untuk menentukan kolom yang harus dikembalikan dalam kumpulan hasil. Dalam hal ini, kami memilih kolom nama_depan.
+2. `FROM`: Kata kunci ini digunakan untuk menentukan tabel dari mana kita ingin mengambil data. Dalam hal ini, kami mengambil data dari tabel pelanggan.
+3. `WHERE`: Kata kunci ini digunakan untuk memfilter baris yang harus disertakan dalam kumpulan hasil. Dalam hal ini, kami memfilter baris berdasarkan ketentuan bahwa kolom id harus sama dengan 2.
+4. `id=2`: Ini adalah kondisi yang kita gunakan untuk memfilter baris. Artinya kita hanya tertarik pada baris yang kolom id-nya sama dengan 2.
+### Kesimpulan 
+Query SQL `SELECT nama_depan FROM pelanggan WHERE id = 2;` digunakan untuk memilih nilai kolom nama_depan dari tabel pelanggan di mana idnya adalah 2.
 # Update
 ## Struktur Query
 ```mysql
@@ -348,7 +370,9 @@ update nama_tabel set nama_kolom where kondisi;
 ![[Pasted image 20240213141005.png]]
 
 ## Analisis
+Dalam query ini, menggunakan perintah `UPDATE` untuk mengubah data yang sudah ada di tabel `pelanggan`. Dan menggunakan klausa `SET` untuk menentukan kolom yang ingin diubah dan nilai baru yang ingin diberikan. klausa `WHERE` digunakan untuk menentukan baris yang ingin diubah berdasarkan kondisi yang diberikan.
 ## Kesimpulan
+Query `UPDATE pelanggan SET no_telp = '09834834892' WHERE id_pelanggan = 1` digunakan untuk mengubah data no_telp pada tabel pelanggan dengan id_pelanggan yang sama dengan `1` menjadi `09834834892`
 
 # Delete
 
@@ -357,10 +381,16 @@ update nama_tabel set nama_kolom where kondisi;
 delete from nama_tabel where kondisi;
 ```
 
+```mysql
+delete from pelanggan where id_pelanggan="5";
+```
 ## Contoh Query
 ## Hasil
 ![[Pasted image 20240213141923.png]]
-
+### Analisis 
+Ketika query ini dijalankan, hanya satu baris data yang akan dihapus, yaitu baris dengan `id_pelanggan` yang sama dengan `5`. Jika tidak ada data dengan `id_pelanggan` yang sama dengan `5`, maka tidak akan terjadi perubahan apa-apa pada tabel `pelanggan`.
+### Kesimpulan
+Query `DELETE FROM pelang WHERE id_pelanggan = "5"` digunakan untuk menghapus data pelanggan dengan id_pelanggan yang sama dengan 5.
 
 # Hapus Tabel
 ## Struktur Query
@@ -375,3 +405,7 @@ drop table mobil;
 
 ## Hasil
 ![[Pasted image 20240213143230.png]]
+### Analisis
+Ketika query ini dijalankan, semua data dan struktur tabel mobil akan dihapus secara permanen dari database. Ini berarti bahwa data yang ada pada tabel mobil tidak dapat dikembalikan setelah tabel mobil dihapus.
+### Kesimpulan
+Query `DROP TABLE mobil;` digunakan untuk menghapus tabel mobil dari database.

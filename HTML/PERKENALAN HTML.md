@@ -619,10 +619,45 @@ Contoh :
 Hasil : 
 ![[form tugas.png]]
 
-## DIV & SPAN
+# DIV & SPAN
 ## `<div>`
+`<div>` adalah tag HTML yang digunakan untuk membuat blok konten. Tag ini digunakan untuk mengelompokkan konten dan memberikan atribut tertentu pada blok tersebut.
+Contoh: 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DIV SPAN</title>
+</head>
+<body>
+    <!-- div digunakan untuk memblok satu area dengan tanda baris
+    baru setelahnya-->
+    <div> ini dibuat menggunakan div </div>
+    <div> ini juga menggunakan div</div>
+</body>
+</html>
+```
 
+Hasil: 
+![[Pasted image 20240224230425.png]]
 
 ## `<span>`
+`<span>` adalah tag HTML yang digunakan untuk membuat blok konten yang tidak memiliki atribut tertentu.
+Contoh: 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DIV SPAN</title>
+</head>
+<body>
+    <!-- kebalikan <div>-->
+    <span> ini digunakan untuk span</span>
+    <span> ini juga menggunakan span </span>
+</body>
+</html>
+```
+Hasil:
+![[Pasted image 20240224230714.png]]
 
 

@@ -11,11 +11,9 @@
             "id": "66ac5934030fcf5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CSS/Pengenalan CSS.md",
-                "mode": "source",
-                "source": false
+                "file": "HTML/ASET HTML/Pasted image 20240224230425.png"
               }
             }
           }
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/Pengenalan CSS.md",
+                "file": "HTML/ASET HTML/Pasted image 20240224230425.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/Pengenalan CSS.md",
+                "file": "HTML/ASET HTML/Pasted image 20240224230425.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Pengenalan CSS.md"
+                "file": "HTML/ASET HTML/Pasted image 20240224230425.png"
               }
             }
           },
@@ -166,27 +164,28 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "66ac5934030fcf5f",
+  "active": "01ea53bf79ba69ae",
   "lastOpenFiles": [
     "Pasted image 20240219120512.png",
-    "Pasted image 20240219120430.png",
     "Pasted image 20240219115530.png",
     "Pasted image 20240219115448.png",
-    "CSS/Pengenalan CSS.md",
+    "HTML/ASET HTML/Pasted image 20240220142420.png",
+    "HTML/ASET HTML/Pasted image 20240220151506.png",
+    "HTML/ASET HTML/Pasted image 20240220150818.png",
+    "HTML/ASET HTML/Pasted image 20240220150303.png",
+    "HTML/ASET HTML/Pasted image 20240220144913.png",
+    "HTML/ASET HTML/Pasted image 20240220144847.png",
+    "HTML/ASET HTML/Pasted image 20240220144312.png",
+    "HTML/ASET HTML/Pasted image 20240220143950.png",
+    "BASIS DATAAAAA.md",
     "HTML/PERKENALAN HTML.md",
+    "Pengenalan Web.md",
+    "BASIS DATA/Instalasi & Query Awal Database.md",
+    "BASIS DATA/SELECT LANJUTAN.md",
+    "BASIS DATA/Pengenalan Basis Data.md",
+    "CSS/Pengenalan CSS.md",
     "CSS/CSS.md",
     "CSS",
-    "BASIS DATA/Instalasi & Query Awal Database.md",
-    "Pasted image 20240213143230.png",
-    "Pasted image 20240213143206.png",
-    "Pasted image 20240213141923.png",
-    "Pasted image 20240213141005.png",
-    "BASIS DATAAAAA.md",
-    "Pengenalan Web.md",
-    "HTML/ASET HTML/form tugas.png",
-    "HTML/ASET HTML/Pasted image 20240205120117.png",
-    "HTML/ASET HTML/link.png",
-    "BASIS DATA/Pengenalan Basis Data.md",
     "PERTEMUAN 1.md",
     "BASIS DATA/BASIS DATA.md",
     "PEMROGRAMAN WEB/Hypertext Markup Language.md",
