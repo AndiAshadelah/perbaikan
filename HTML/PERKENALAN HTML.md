@@ -17,7 +17,7 @@
 - Tag pembuka `<head>` berisi informasi tentang halaman HTML sampai dengan tag penutup `</head>` biasanya tag head terdapat tag `<title>` untuk memberikan informasi judul halaman HTML 
 - Apapun tag yang berada di antara tag pembuka `<body>` sampai dengan tag penutup `</body>` akan tampil di browser.
 
-![[tampilan.png]]
+![tampilan](tampilan.png)
 
 # Anatomi Elemen HTML
 Elemen HTML `<a>` digunakan untuk membuat tautan atau hyperlink dalam dokumen HTML. `<a>` dapat digunakan untuk mengarahkan pengguna ke halaman web, dan file.
@@ -29,7 +29,7 @@ Elemen HTML `<a>` digunakan untuk membuat tautan atau hyperlink dalam dokumen 
 - `https://google.com`  merupakan nilai dari atribut `href` 
 - `Klik google !` merupakan konten pada tag `<a>` dan akan tampil di web browser seperti di bawah ini.
 
-![GOOGLE][ASETHTML/google.png]
+![GOOGLE](ASETHTML/google.png)
 
 
 # Tag Dasar
@@ -55,7 +55,7 @@ Heading tag adalah tag HTML yang digunakan untuk mendefinisikan judul dan sub-ju
 
 Di bawah ini merupakan hasil dari kode program di atas.
 
-![HEADING][ASETHTML/heading.png]
+![HEADING](ASETHTML/heading.png)
 
 ## Paragraf
 ### Tag `<p>` 
@@ -67,7 +67,7 @@ berfungsi untuk memberikan garis bawah pada bagian tertentu, seperti tautan pent
 ### Tag `<br>`
 digunakan untuk membuat baris baru dalam sebuah elemen teks atau konten HTML.
 
-![PARAG][ASETHTML/TAGPARAF.PNG]
+![PARAG](ASETHTML/TAGPARAF.PNG)
 ## Align
  **Align** adalah atribut yang menentukan perataan teks.
  ```html
@@ -76,9 +76,6 @@ digunakan untuk membuat baris baru dalam sebuah elemen teks atau konten HTML.
      <title>adel uhuy</title>
     </head>
     <body>
-        <p>Apa yang di maksud dengan adel?</p>
-        <a href="https://www.google.com"> Klik google </a>
-        <h3> Belajar menggunakan elemen tag HTML P</h3>
             <p align="left">
                 Sultan Hasanuddin yang semakin terdesak akhirnya bersedia berunding dan menghasilkan Perjanjian Bongaya (18 November 1667) yang merugikan Gowa. Dengan demikian, Sultan Hasanuddin mendapatkan julukan "Ayam Jantan dari Timur" karena kegigihan dan usaha kerasnya dalam menghadapi VOC.
             </p>
@@ -107,7 +104,7 @@ untuk membuat teks rata kiri dan kanan
 
 >  Foto dibawah merupakan hasil dari program di atas.
 
-![PARAG][ASETHTML/paragraf.png]
+![PARAG](ASETHTML/paragraf.png)
 
 ## Komentar 
 HTML juga mempunyai tag khusus untuk komentar untuk membuat komentar di HTML kita menggunakan awalan `<!--` dan penutup `-->`
@@ -134,7 +131,8 @@ Contoh:
 ```
 
  dan hasil yang akan ditampilkan yaitu 
- ![KOMEN][ASETHTML/KOMENTAR.png]
+ ![KOMEN](ASETHTML/KOMENTAR.png)
+ 
 
 ## List 
 List adalah fungsi HTML yang digunakan untuk menampilkan **daftar** dari sesuatu. Dalam HTML, tag list terdiri dari 2 jenis `<ol>` **ordered list (berurutan)** dan `<ul>` **nordered list (tidak berurutan).** ordered list akan tampilkan dengan angka atau huruf sedangkan unordered list dengan bulatan atau kotak ataupun simbol lainnya.
@@ -167,7 +165,7 @@ Berikut contohnya
 ```
 
 Hasil dari pemrograman di atas seperti di bawah ini:
-![LIST][ASETHTML/LIST.png]
+![LIST](ASETHTML/LIST.png)
 
 ## Link 
 Link dapat ditemukan di lampir semua halaman web. Link/tautan memungkinkan sebuah teks yang ketika di klik akan pindah ke halaman lainnya. HTML menggunakan tag `<a>` untuk keperluan ini. Link ditulis  dengan `<a>` yang merupakan singkatan dari anchor (jangkar).
@@ -195,7 +193,7 @@ Atribut penting lainnya dari tag `<a>` atribut target menentukan tempat untuk me
 
 
 
-![LINK][ASETHTML/link.png]
+![LINK](ASETHTML/link.png)
 
 ## Multimedia
 ### Gambar
@@ -222,9 +220,9 @@ Dalam tag `<img>` terdapat juga atribut `witdh` dan `height` untuk mengatur ukur
 ```
 
 Hasil:
-![FILE][ASETHTML/tempatfile.png]
+![FILE](ASETHTML/tempatfile.png)
 
-![ABRAR][ASETHTML/abrar.png]
+![ABRAR](ASETHTML/abrar.png)
 ### Video
 Fitur HTML5 mencakup dukungan audio dan video asli tanpa memerlukan Flash. Tag `<audio>` dan `<video>` pada HTML5 mempermudah penambahan media ke dalam halaman web. Yang penting untuk diatur pada tag ini adalah atribut src yang berfungsi untuk mengidentifikasi sumber media. Selain itu, terdapat pula atribut controls agar pengguna dapat memutar dan menjeda media.
 
@@ -244,7 +242,7 @@ Fitur HTML5 mencakup dukungan audio dan video asli tanpa memerlukan Flash. Tag `
 
 Konten berupa teks “Browser anda tidak mendukung elemen `<video>`.“ pada tag `<video>` akan ditampilkan jika browser tidak mendukung elemen tersebut. Sehingga sebenarnya bagian ini dapat dihilangkan.
 
-![VID][ASETHTML/vid3.png]
+![VID](ASETHTML/vid3.png)
 
 
 ### Audio
@@ -266,7 +264,7 @@ Seperti yang telah dibahas sebelumnya bahwasanya tag `<audio>` merupakan bagian 
 
 Konten berupa teks “Browser anda tidak mendukung elemen `<video>`.“ pada tag `<video>`      akan ditampilkan jika browser tidak mendukung elemen tersebut. Sehingga sebenarnya bagian ini dapat dihilangkan.
 
-![AUDIO][ASETHTML/audio.png]
+![AUDIO](ASETHTML/audio.png)
 
 ### Halaman Web lain
 Elemen `<iframe>` dapat digunakan untuk menampilkan halaman website lain dalam suatu website. Atau menampilkan dokumen HTML lain dalam sebuah website. Mudahnya, bisa dibilang website dalam website.
@@ -290,7 +288,7 @@ Dalam tag `iframe` ada beberapa atribut yang penting seperti :
 </html>
 ```
 
-![SMK][ASETHTML/smk7.png]]
+![SMK](ASETHTML/smk7.png)
 
 # Tabel
 ### Tabel 1
@@ -325,7 +323,7 @@ Tabel dalam HTML didefinisikan dengan tag `<table>.`
 ```
 
 Hasil:
-![TABEL1][ASETHTML/table1.png]
+![TABEL1](ASETHTML/table1.png)
 
 > [! faq]- Perhatikan bahwa pada tag `<table>` terdapat sebuah atribut border. Atribut border digunakan untuk memberikan nilai garis tepi dari tabel. Nilai ini dalam ukuran pixel. border=”1”, berarti kita mengistruksikan kepada web browser bahwa tabel tersebut akan memiliki garis tepi sebesar 1 pixel. Jika tidak ditambahkan, secara default tabel tidak memiliki garis tepi.
 
@@ -378,7 +376,7 @@ Contoh:
 ```
 
 Hasil:
-![TABEL2][ASETHTML/table2.png]
+![TABEL2](ASETHTML/table2.png)
 
 >[! faq]- 💡 Perhatikan pada konten elemen `<td>` yang berisi `Rezky Awalya` , hanya terdapat satu elemen `<td>` disana. Hal ini dikarenakan konten elemen `<td>` sebelumnya yaitu `SMKN 7 Makassar` dan `-` pada data `Condrado Alain Sharon` mengandung atribut `rowspan` dengan nilai `2` yang secara otomatis mengisi data di bawahnya yakni data `Rezky Awalya`. Nilai `2` menunjukkan bahwa ada dua baris yang digabungkan menjadi satu. Konsep ini juga sama dengan apa yang terjadi pada `<th rowspan="2">Nama</th>` dan `<th colspan="2">Asal Institusi</th>` .
 
@@ -411,7 +409,7 @@ Contoh :
         </table>
 ```
 Hasil : 
-![TGS1][ASETHTML/tabeltugas`.png]
+![TGS1](ASETHTML/tabeltugas.png)
 ## FORM
 Elemen `<form>` HTML digunakan untuk mendefinisikan form yang digunakan untuk mengumpulkan inputan dari pengguna website. Tag ini digunakan untuk mengkoleksi inputan dari user, konsep ini sama seperti konsep formulir di dunia nyata.
 
@@ -545,7 +543,7 @@ Contoh;
 ```
 
 Hasil : 
-![FORM][ASETHTML/form.png]
+![FORM](ASETHTML/form.png)
 
 Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas yaitu sebagai berikut:
 - `name` - digunakan sebagai nama variabel yang akan diproses oleh _web server_ (contoh menggunakan PHP)
@@ -619,7 +617,7 @@ Contoh :
 ```
 
 Hasil : 
-![TGS2][ASETHTML/formtugas.png]]
+![TGS2](ASETHTML/formtugas.png)
 
 # DIV & SPAN
 ## `<div>`
@@ -641,7 +639,7 @@ Contoh:
 ```
 
 Hasil: 
-![DIV][ASETHTML/DIV.png]
+![DIV](ASETHTML/DIV.png)
 
 ## `<span>`
 `<span>` adalah tag HTML yang digunakan untuk membuat blok konten yang tidak memiliki atribut tertentu.
@@ -660,6 +658,6 @@ Contoh:
 </html>
 ```
 Hasil:
-![SPAN][ASETHTML/SPAN.png]
+![SPAN](ASETHTML/SPAN.png)
 
 
