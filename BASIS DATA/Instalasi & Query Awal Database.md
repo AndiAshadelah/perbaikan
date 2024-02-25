@@ -206,20 +206,9 @@ show tables;
 Perintah "SHOW TABLES" digunakan dalam SQL untuk menampilkan daftar tabel yang ada dalam basis data. Ini memungkinkan Anda melihat tabel-tabel yang telah dibuat sebelumnya.
 - Setelah menjalankan perintah "SHOW TABLES", Anda akan mendapatkan hasil yang menampilkan daftar tabel yang ada dalam basis data tersebut. Hasilnya dapat berupa daftar tabel dalam bentuk kolom tunggal atau kolom ganda, tergantung pada implementasi sistem manajemen basis data (DBMS) yang digunakan.
 ## QNA
-> [! faq]- Perbedaan PK & UNIQUE
-> >Perbedaan utama antara kunci utama (primary key) dan batasan unik (unique constraint) adalah sebagai berikut:
-Primary Key:
->-  Kunci utama (primary key) adalah kolom atau kelompok kolom yang digunakan untuk secara unik mengidentifikasi setiap baris dalam sebuah tabel.
->- Setiap tabel hanya dapat memiliki satu kunci utama.
->- Kolom yang ditetapkan sebagai kunci utama harus memiliki nilai yang unik dan tidak boleh kosong (NULL).
->- Kunci utama memberikan cara yang efisien untuk mencari, mengurutkan, dan merujuk ke baris tertentu dalam tabel.
->- Biasanya digunakan sebagai referensi dalam pembuatan hubungan antar tabel (relational database) menggunakan kunci asing (foreign key).
-Unique Constraint:
->- Batasan unik (unique constraint) digunakan untuk memastikan bahwa nilai dalam kolom tertentu atau kelompok kolom memiliki nilai yang unik.
->- Tabel dapat memiliki lebih dari satu batasan unik.
->- Kolom yang memiliki batasan unik dapat memiliki nilai yang tidak boleh duplikat, tetapi boleh kosong (NULL).
->- Batasan unik tidak secara otomatis menjadi kunci utama, meskipun kolom dengan batasan unik dapat digunakan sebagai kunci asing dalam hubungan antar tabel.
->- Batasan unik berguna ketika Anda ingin membatasi nilai-nilai yang duplikat dalam kolom tertentu, tetapi tidak memerlukan pengidentifikasi utama unik untuk setiap baris dalam tabel.
+>[! faq]- PERBEDAAN PRIMARY KEY & UNIQUE
+>>- `PRIMARY KEY` digunakan untuk membuat kolom atau kombinasi kolom yang unik dan menjadi primary key dari tabel. Primary key digunakan sebagai identitas unik untuk setiap baris data pada tabel.
+>>- `UNIQUE` digunakan untuk membuat kolom atau kombinasi kolom yang unik pada tabel. Namun, primary key dan unique tidak harus sama. Primary key selalu unik, sedangkan unique hanya memastikan bahwa setiap nilai pada kolom tersebut hanya muncul sekali.
 
 >[! faq]- Mengapa hanya kolom id_pelanggan yang menggunakan primary key?
 >> memastikan integritas data dengan mencegah duplikasi dan memastikan bahwa setiap baris memiliki identitas yang jelas.
@@ -274,6 +263,7 @@ values (2, 'alwi', 'rizkyansyah', '0823456780'),
  3. `values` digunakan untuk memasukkan nilai ke dalam field
  4. `(2, 'alwi', 'rizkyansyah', '0823456780'), (3, 'adel', 'anil', '08234479423'), (4, 'aril', 'haq', '0823456280');` merupakan nilai yang akan di masukkan
 ### Kesimpulan
+menambahkan beberapa data baru ke tabel pelanggan dengan nilai `id_pelanggan = 2, nama_depan = 'alwi', nama_belakang = 'rizkyansyah', no_telp = '0823456780', id_pelanggan = 3, nama_depan = 'adel', nama_belakang = 'anil', no_telp = '08234479423', id_pelanggan = 4, nama_depan = 'aril', nama_belakang = 'haq', no_telp = '0823456280'.`
 
 ## Menyebut kolom
 ### Struktur Query
@@ -294,7 +284,7 @@ insert into pelanggan
 - nama_depan: 'azikin'
 - nama_belakang: 'sofyan'
 - no_telp: '93629205'
-Pada sintaks setelah perintah `INSERT INTO akun` terdapat sintaks `(id_pelanggan, nama_depan, nama_belakang, no_telp)`. Sintaks inilah yang mengidentifikasi nama kolom yang mau ditambahkan. Ditekankan juga bahwa urutan kolom yang disebutkan tidak berurutan. Hal ini terjadi jika sekitainya kita kan menginput sebuah data yang urutan judul kolomnya tidak sesuai dengan urutan tabel di sql.
+Pada sintaks setelah perintah `INSERT INTO akun` terdapat sintaks `(id_pelanggan, nama_depan, nama_belakang, no_telp)`. Sintaks inilah yang mengidentifikasi nama kolom yang mau ditambahkan. 
 ### Kesimpulan 
 kita dapat menambahkan nilai dengan menyebut nama kolom tersebut.
 
@@ -315,6 +305,7 @@ select * from pelanggan;
 - `SELECT * FROM` adalah perintah untuk melihat item tabel
 - `akun` adalah nama tabel yang datanya mau dilihat.
 ### Kesimpulan
+Query `SELECT * FROM pelanggan;` digunakan untuk menampilkan semua data dari tabel pelanggan.
 
 ## Data kolom tertentu 
 ### Struktur 
@@ -330,9 +321,9 @@ select nama_depan from pelanggan;
 ### Hasil
 ![[Pasted image 20240206151322.png]]
 ### Analisis
-untuk menampilkan data nama saja caranya yaitu menggunakan perintah `SELECT` kemudian diikuti oleh judul kolom yang ingin ditampilkan, yaitu `nama_depan` Kemudian kita melanjutkannya dengan mengetik perintah `FROM` dan diikuti dengan nama tabel. Dengan cara seperti ini kita telah menampilkan item data pada kolom `nama_depan` pada tabel `pelanggan`.
+untuk menampilkan data nama saja caranya yaitu menggunakan perintah `SELECT` kemudian diikuti oleh judul kolom yang ingin ditampilkan, yaitu `nama_depan` Kemudian di lanjutlan dengan mengetik perintah `FROM` dan diikuti dengan nama tabel. Dengan cara seperti ini kita telah menampilkan item data pada kolom `nama_depan` pada tabel `pelanggan`.
 ### Kesimpulan
-
+Query `SELECT nama_depan FROM pelanggan;` digunakan untuk menampilkan data `nama_depan` dari tabel `pelanggan`
 ## Klausa WHERE
 ### Struktur 
 ```mysql

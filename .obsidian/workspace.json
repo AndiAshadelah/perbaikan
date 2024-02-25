@@ -11,9 +11,11 @@
             "id": "66ac5934030fcf5f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "HTML/ASET HTML/Pasted image 20240224230425.png"
+                "file": "BASIS DATA/Instalasi & Query Awal Database.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/ASET HTML/Pasted image 20240224230425.png",
+                "file": "BASIS DATA/Instalasi & Query Awal Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/ASET HTML/Pasted image 20240224230425.png",
+                "file": "BASIS DATA/Instalasi & Query Awal Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/ASET HTML/Pasted image 20240224230425.png"
+                "file": "BASIS DATA/Instalasi & Query Awal Database.md"
               }
             }
           },
@@ -164,8 +166,13 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "01ea53bf79ba69ae",
+  "active": "66ac5934030fcf5f",
   "lastOpenFiles": [
+    "BASIS DATAAAAA.md",
+    "BASIS DATA/Instalasi & Query Awal Database.md",
+    "HTML/PERKENALAN HTML.md",
+    "Pengenalan Web.md",
+    "HTML/ASET HTML/Pasted image 20240224230425.png",
     "Pasted image 20240219120512.png",
     "Pasted image 20240219115530.png",
     "Pasted image 20240219115448.png",
@@ -175,12 +182,6 @@
     "HTML/ASET HTML/Pasted image 20240220150303.png",
     "HTML/ASET HTML/Pasted image 20240220144913.png",
     "HTML/ASET HTML/Pasted image 20240220144847.png",
-    "HTML/ASET HTML/Pasted image 20240220144312.png",
-    "HTML/ASET HTML/Pasted image 20240220143950.png",
-    "BASIS DATAAAAA.md",
-    "HTML/PERKENALAN HTML.md",
-    "Pengenalan Web.md",
-    "BASIS DATA/Instalasi & Query Awal Database.md",
     "BASIS DATA/SELECT LANJUTAN.md",
     "BASIS DATA/Pengenalan Basis Data.md",
     "CSS/Pengenalan CSS.md",
