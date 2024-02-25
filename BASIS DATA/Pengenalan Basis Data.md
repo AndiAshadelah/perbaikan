@@ -28,9 +28,8 @@ Data Siswa XI RPL 1 :
 		|
 	kolom/field
 
-- **Record** dalam basis data merujuk kepada kumpulan informasi yang berkaitan dan terkait dengan entitas tunggal atau objek dalam suatu sistem basis data.
+- **Record** dalam basis data merujuk kepada kumpulan informasi yang berkaitan dan terkait dengan entitas tun  ggal atau objek dalam suatu sistem basis data.
 - **Field** dalam basis data merujuk kepada komponen terkecil dari sebuah record atau tupel dalam tabel.
 - **Data Value** dalam basis data merujuk kepada nilai konkret yang disimpan dalam field atau atribut dalam suatu record 
 
 ![[struktur.jpg]]
-/  
