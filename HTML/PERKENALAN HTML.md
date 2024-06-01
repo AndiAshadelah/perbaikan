@@ -347,7 +347,7 @@ Contoh:
             </tr>
             <tr>
                <th width="100">Sekolah</th>
-               <th width="100">Kampus</th>
+                  <th width="100">Kampus</th>[]()
             </tr>
             <tr>
                <td> Muh Nur Irfan</td>

@@ -174,9 +174,9 @@ namakolom tipedata(lebar) cons,
 ![TABLE](ASET/CREATETABLE.png)
 
 ### Analisis Kesimpulan 
-1. Kolom "nama_mobil" didefinisikan sebagai VARCHAR(15), yang berarti itu akan menyimpan data string dengan panjang maksimal 15 karakter. Kemudian, PRIMARY KEY menandakan bahwa kolom ini akan menjadi kunci utama untuk tabel, yang berarti nilainya harus unik dan tidak boleh kosong (NOT NULL).
+1. Kolom "nama_mobil" didefinisikan sebagai VARCHAR(15), yang berarti itu  akan menyimpan data string dengan panjang maksimal 15 karakter. Kemudian, PRIMARY KEY menandakan bahwa kolom ini akan menjadi kunci utama untuk tabel, yang berarti nilainya harus unik dan tidak boleh kosong (NOT NULL).
 2. Kolom "plat_mobil" didefinisikan sebagai CHAR(10), yang berarti itu akan menyimpan data karakter dengan panjang tetap sebanyak 10 karakter. Selanjutnya, NOT NULL menunjukkan bahwa kolom ini harus memiliki nilai (tidak boleh kosong), dan UNIQUE menandakan bahwa nilai-nilai dalam kolom ini harus unik (tidak ada duplikat).
-3. Kolom "warna_mobil" didefinisikan sebagai VARCHAR(10), yang berarti itu akan menyimpan data string dengan panjang maksimal 10 karakter. Seperti kolom sebelumnya, NOT NULL menunjukkan bahwa kolom ini harus memiliki nilai (tidak boleh kosong), dan UNIQUE menandakan bahwa nilai-nilai dalam kolom ini harus unik (tidak ada duplikat).
+3. Kolom "warna_mobil" didefinisikan sebagai VARCHAR(10), yang berarti itu akan menyimpan data string dengan panjang maksimal 10 karakter. Seperti kolom sebelumnya, NOT NULL menunjukkan bahwa kolom ini harus memiliki nilai (tidak boleh kosong), dan UNIQUE menandakan bahwa nilai-nilai dalam kolom ini harus unik (tidak ada duplikat). b 
 ## Struktur Tabel
 ### Query
 ```
@@ -386,6 +386,12 @@ Query `DELETE FROM pelang WHERE id_pelanggan = "5"` digunakan untuk menghapus 
 drop table [nama_tabel]
 ```
 
+insert into table_guru
+values
+(1,"Adrianty",null,"Pemrograman Web","Ketua Jurusan",34,"1982-06-29"),
+(2,"Ibrahim","Mallombasang","Basis Data","Kepala Sekolah",21,"2000-09-21"),
+(3,"Muhammad","Yusuf","Pemodelan Perangkat Lunak",null,28,"1992-12-24"),
+(4,"Rusdyansyar",null,"Pemrograman Berorientasi Objek","Asisten Kepala Sekolah",25,"1996-01-21");
 ## Contoh Query
 ```mysql
 drop table mobil;
@@ -396,4 +402,4 @@ drop table mobil;
 ### Analisis
 Ketika query ini dijalankan, semua data dan struktur tabel mobil akan dihapus secara permanen dari database. Ini berarti bahwa data yang ada pada tabel mobil tidak dapat dikembalikan setelah tabel mobil dihapus.
 ### Kesimpulan
-Query `DROP TABLE mobil;` digunakan untuk menghapus tabel mobil dari database.
+Query `DROP TABLE m obil;` digunakan untuk menghapus tabel mobil dari database.
