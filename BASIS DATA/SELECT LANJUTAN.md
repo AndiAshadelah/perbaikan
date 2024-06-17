@@ -8,7 +8,7 @@ select kolom1,kolom2 from nama_tabel, where kolom1="nilai1" AND kolom2="nilai2;
 select warna,pemilik from mobil where warna='HITAM' AND pemilik='RANI';
 ```
 ## Hasil
-![image](ASET/s1.png)
+![image](BASIS%20DATA/aset/s1.png)
 ## Analisis
 1. `SELECT warna, pemilik`: Ini menentukan bahwa kita ingin memilih kolom warna dan pemilik dari tabel mobil.
 2. `FROM mobil`: Ini menentukan tabel yang kolomnya ingin kita pilih, yaitu tabel mobil.
@@ -27,7 +27,7 @@ select kolom1,kolom2 from nama_tabel, where kolom1="nilai1" AND kolom2="nilai2;
 select warna,pemilik from mobil where warna='HITAM' AND pemilik='RANI';
 ```
 ## Hasil
-![image](aset/s2.png)
+![image](BASIS%20DATA/aset/s2.png)
 
 ## Analisis 
 1. `SELECT warna, pemilik`: Bagian query ini menentukan kolom yang ingin saya ambil dari tabel mobil. Dalam hal ini, Anda ingin mengambil kolom warna (warna) dan pemilik (pemilik).
@@ -48,7 +48,7 @@ select * from mobil where harga_rental between 100000 AND 150000;
 ```
 
 ## Hasil
-![image](aset/s3.png)
+![image](BASIS%20DATA/aset/s3.png)
 
 ## Analisis
 `SELECT *`: Bagian query ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel seluler.
@@ -71,7 +71,7 @@ select * from nama_tabel where kolom1 not between nilai1 AND nilai2;
  select * from mobil where harga_rental not between 1000000 AND 20000;
 ```
 ## Hasil 
-![image](aset/s4.png)
+![image](BASIS%20DATA/aset/s4.png)
 ## Analisis
 1. `SELECT *`: Bagian Query ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel seluler.
 2. `FROM mobil`: Bagian query ini menentukan tabel tempat Anda ingin mengambil data. Dalam hal ini, Anda ingin mengambil data dari tabel mobile.
@@ -90,7 +90,7 @@ Perintah tersebut digunakan untuk mencari mobil dengan harga sewa di luar rentan
 ```
 
 ## Hasil
-![image](aset/s5.png)
+![image](BASIS%20DATA/aset/s5.png)
 
 ## Analisis
 1. `SELECT *`: Bagian kueri ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel seluler.
@@ -109,7 +109,7 @@ select * from nama_tabel where kolom1 <= nilai1;
  ```
 
 ## Hasil
-![[s6.png]]
+![[BASIS DATA/aset/s6.png]]
 ## Analisis
 1.  `SELECT *`: Bagian kueri ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel seluler.
 2. `FROM mobil`: Bagian kueri ini menentukan tabel tempat Anda ingin mengambil data. Dalam hal ini, Anda ingin mengambil data dari tabel mobile.
@@ -127,7 +127,7 @@ select * from mobil where harga_rental <> 50000;
 ```
 
 ## Hasil
-![image](aset/s7.png)
+![image](BASIS%20DATA/aset/s7.png)
 ## Analisis
 1. `SELECT *`: Bagian kueri ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel seluler.
 2. `FROM mobil`: Bagian kueri ini menentukan tabel tempat Anda ingin mengambil data. Dalam hal ini, Anda ingin mengambil data dari tabel mobile.
@@ -144,7 +144,7 @@ Hasil dari perintah tersebut akan mengembalikan semua baris dari tabel "mobil" d
  select * from mobil where warna in('silver','merah');
 ```
 ## Hasil 
-![image](aset/s8.png)
+![image](BASIS%20DATA/aset/s8.png)
 ## Analisis
 1. `SELECT *`: Bagian kueri ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel seluler.
 2. `FROM mobil`: Bagian kueri ini menentukan tabel tempat Anda ingin mengambil data. Dalam hal ini, Anda ingin mengambil data dari tabel mobile.
@@ -247,7 +247,7 @@ select * from [nama_tabel]
 -> where [nama_kolom] like 'nama_awal';
 ```
 ### Hasil
-![IMAGE](s13.png)
+![IMAGE](aset/s13.png)
 ### Analisis
 `pemilik LIKE 'ad%'`: Kondisi ini akan memfilter baris berdasarkan kolom "pemilik", mencocokkan nilai dengan pola yang diberikan. Dalam hal ini, pola yang diberikan adalah 'ad%', yang berarti mencari nilai pemilik yang dimulai dengan huruf 'ad'. Tanda '%' dalam pola tersebut menunjukkan bahwa ada nol atau lebih karakter setelah 'ad'.
 ### Kesimpulan
@@ -265,7 +265,7 @@ select * from [nama_tabel]
 -> where [nama_kolom] like 'nama_akhir';
 ```
 ### Hasil
-![image](aset/s14.png)
+![image](aset/S14.png)
 ### Analisis
 `pemilik LIKE '%i'`: Kondisi ini akan memfilter baris berdasarkan kolom "pemilik", mencocokkan nilai dengan pola yang diberikan. Dalam hal ini, pola yang diberikan adalah '%i', yang berarti mencari nilai pemilik yang diakhiri dengan huruf 'i'. Tanda '%' di depan pola menunjukkan bahwa ada nol atau lebih karakter sebelum 'i'.
 ### Kesimpulan 
@@ -282,7 +282,7 @@ select * from mobil
 -> where pemilik like 'r%i';
 ```
 ### Hasil
-![image](aset/s15.png)
+![image](aset/S15.png)
 ### Analisis
 - `pemilik LIKE`: Mengindikasikan pencocokan pola pada kolom "pemilik".
 - `'r%i'`: Pola yang digunakan untuk pencocokan. Huruf 'r' menunjukkan bahwa nilai kolom "pemilik" harus diawali dengan huruf 'r', sedangkan '%i' menunjukkan bahwa setelah huruf 'r', ada nol atau lebih karakter, dan diakhiri dengan huruf 'i'.
@@ -300,7 +300,7 @@ select * from mobil
 -> where pemilik like 'r___';
 ```
 ### Hasil
-![image](aset/s16.png)
+![image](aset/S16.png)
 ### Analisis
 1.`pemilik LIKE 'r___'`: Kondisi ini akan memfilter baris berdasarkan kolom "pemilik", mencocokkan nilai dengan pola yang diberikan. Dalam hal ini, pola yang diberikan adalah 'r___', yang berarti mencari nilai pemilik yang terdiri dari lima karakter, di mana karakter pertama adalah 'r' dan tiga karakter berikutnya boleh apa saja.
 ### Kesimpulan 
@@ -317,10 +317,11 @@ select * from mobil
 -> where pemilik like '___i%';
 ```
 ### Hasil
-
+![image](aset/s50.png)
 ### Analisis
-`pemilik LIKE '___i%'`: Kondisi ini akan memfilter baris berdasarkan kolom "pemilik", mencocokkan nilai dengan pola yang diberikan. Dalam hal ini, pola yang diberikan adalah '___i%', yang berarti mencari nilai pemilik yang terdiri dari setidaknya empat karakter, di mana karakter ketiga adalah 'i', dan karakter-karakter berikutnya boleh apa saja
+`pemilik LIKE '___i%'`: Kondisi ini akan memfilter baris berdasarkan kolom "pemilik", mencocokkan nilai dengan pola yang diberikan. Dalam hal ini, pola yang diberikan adalah '__i%', yang berarti mencari nilai pemilik yang terdiri dari setidaknya empat karakter, di mana karakter ketiga adalah 'i', dan karakter-karakter berikutnya boleh apa saja__
 ### Kesimpulan
+digunakan untuk mencari akhiran nama yang berakhiran sesuai huruf yamg ingin di cari
 
 ## Not like
 ### Struktur Query
@@ -334,6 +335,8 @@ select * from mobil where peminjam not like 'r%';
 ### Hasil
 ![image](aset/s17.png)
 ### Analisis
+1. **SELECT * FROM mobil**: Ini akan memilih semua kolom dari tabel `mobil`.
+2. **WHERE peminjam NOT LIKE 'r%'**: Kondisi ini akan menyaring baris di mana nilai kolom `peminjam` tidak dimulai dengan huruf 'r'. Operator `LIKE` digunakan untuk pattern matching, dan `'r%'` berarti string yang dimulai dengan huruf 'r'.
 ### Kesimpulan
 # NULL & NOT NULL
 ## Mencari data kosong
@@ -607,9 +610,8 @@ UPDATE mobil
 ```
 
 ### Hasil
-![gambar](ASET/2.png)
 
-![[1 1.png]]
+![imgae](aset/51.png)
 
 ### Kesimpulan
 `UPDATE mobil SET peminjaman = NULL WHERE peminjaman = 'ADEL';` nilai pada kolom peminjaman pada tabel `mobil`yang memiliki nilai 'ADEL' akan diubah menjadi NULL.

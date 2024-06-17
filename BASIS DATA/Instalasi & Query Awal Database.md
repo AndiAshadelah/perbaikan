@@ -7,32 +7,32 @@
 6. Selanjutnya muncul Pop up peringatan untuk tidak memasang Xampp di drive C dikarenakan adanya batasan-batasan akses pada drive tersebut sehingga fitur-fitur Xampp mungkin akan berjalan kurang maksimal, tekan “OK” untuk melanjutkan pemasangan.
 7. Klik "next" untuk lanjutkan.
 Hasil
-![step 1](ASET/step1.png)
+![step 1](aset/step1.png)
 9. Sesuaikan dengan kebutuhan : MySQL merupakan yang utama, sangat disarankan untuk tetap mencentang phpMyAdmin agar nantinya database dapat diakses dengan GUI, selain itu tidak ada salahnya mencentang yang lain.
-![step 2](ASET/step2.png)
+![step 2](aset/step2.png)
 
 10. Pengaturan Folder Pemasangan XAMPP :  Mengingat peringatan sebelumnya, ada baiknya anda menghindari drive C, ikuti arahan gambar disamping untuk mengubah folder pemasangan
-![STEP 3](STEP3.png)
+![STEP 3](aset/STEP3.png)
 
 11. Cari Folder : Pastikan folder yang anda pilih benar-benar kosong!
 Buat folder baru jika tidak ada folder kosong
-![STEP 4](ASET/STEP4.png)
+![STEP 4](aset/STEP4.png)
 
 12. Di next terus...
-![STEP 5](ASET/STEP5.png)
+![STEP 5](aset/STEP5.png)
 
 13. Selesai : Biarkan centangnya agar Control Panel Xampp langsung terbuka setelah anda mengklik “Finish”
-![STEP 6](ASET/STEP6.png)
+![STEP 6](aset/STEP6.png)
 
 # Menggunakan XAMPP
 1. Buka aplikasi XAMPP 
-![DATA 1](ASET/DATA1.png)
+![DATA 1](DATA1.png)
 
 2. Klik `start` di MySQL
-![DATA 2](ASET/DATA2.png)
+![DATA 2](aset/DATA2.png)
 
 3. Klik `Shell`
-![DATA 3](ASET/DATA3.png)
+![DATA 3](aset/DATA3.png)
 ## Referensi Video Youtube
 
 # Penggunaan Awal MySQL
@@ -42,7 +42,7 @@ Buat folder baru jika tidak ada folder kosong
 mysql -u root -p
 ```
 ### Hasil
-![DATABASES](ASET/databases.png)
+![DATABASES](aset/databases.png)
 ### Analisis Kesimpulan
 - ==`MySQL`== Ini adalah perintah yang digunakan untuk memulai klien MySQL di baris perintah. Klien MySQL memungkinkan kita untuk berinteraksi dengan server MySQL.
 - ==`-U root`== Dalam contoh ini, pengguna yang digunakan adalah «root.» Pengguna «root» biasanya memiliki hak akses penuh ke server MySQL dan dapat melakukan tindakan administratif.
@@ -60,7 +60,7 @@ create database XI_RPL_1;
 ```
 
 ### Hasil
-![BUAT DATABASE](ASET/buatdatabase.png)
+![BUAT DATABASE](aset/buatdatabase.png)
 ### Analisis
 - `CREATE DATABASE` adalah perintah untuk membuat database baru.
 - `[XI_RPL_1]` adalah nama yang Anda pilih untuk database baru Anda.
@@ -76,7 +76,7 @@ show database
 	show databases;
 ```
 ### Hasil
-![SHOW](ASET/tampilkandatabase.png)
+![SHOW](aset/tampilkandatabase.png)
 
 ### Analisis Kesimpulan
 - `SHOW DATABASES` digunakan untuk menampilkan daftar database yang ada dalam sistem manajemen basis data (DBMS). Perintah ini dapat digunakan di beberapa DBMS seperti MySQL, PostgreSQL, dan beberapa DBMS lainnya. Namun, perintahnya dapat sedikit berbeda tergantung pada DBMS yang digunakan.
@@ -90,7 +90,7 @@ drop database [nama_database]
 drop database xi_rpl_1;
 ```
 ### Hasil
-![DROP](ASET/hapusdatabase.png)
+![DROP](aset/hapusdatabase.png)
 ### Analisis Kesimpulan
 "DROP DATABASE" digunakan untuk menghapus sebuah database beserta semua objek yang terkait seperti tabel, indeks, tampilan, dan lainnya dari sistem manajemen basis data (DBMS).
 - `[XI_RPL_1]` adalah nama database yang ingin Anda hapus. 
@@ -102,7 +102,7 @@ use [nama_database]
 ```
 
 ### Hasil
-![USE](ASET/gunakandatabase.png)
+![USE](aset/gunakandatabase.png)
 ### Analisis Kesimpulan
 Dengan menggunakan perintah `use`, Anda dapat mengatur database aktif yang akan digunakan untuk menjalankan perintah-perintah selanjutnya.
 - `USE` adalah perintah yang digunakan untuk beralih ke database yang ditentukan.
@@ -153,7 +153,7 @@ create table [nama table]
 create table mobil;
 ```
 ### Hasil
-![CRETAE](ASET/CREATE.png)
+![CRETAE](aset/CREATE.png)
 
 ### Analisis
 Perintah "CREATE TABLE" digunakan dalam SQL untuk membuat sebuah tabel baru dalam basis data. Berikut adalah penjelasan mengenai sintaks dan bagaimana menggunakan perintah "CREATE TABLE": 
@@ -171,7 +171,7 @@ namakolom tipedata(lebar) cons,
 )
 ```
 ### Hasil
-![TABLE](ASET/CREATETABLE.png)
+![TABLE](aset/CREATETABLE.png)
 
 ### Analisis Kesimpulan 
 1. Kolom "nama_mobil" didefinisikan sebagai VARCHAR(15), yang berarti itu  akan menyimpan data string dengan panjang maksimal 15 karakter. Kemudian, PRIMARY KEY menandakan bahwa kolom ini akan menjadi kunci utama untuk tabel, yang berarti nilainya harus unik dan tidak boleh kosong (NOT NULL).
@@ -183,7 +183,7 @@ namakolom tipedata(lebar) cons,
 describe [nama table];
 ```
 ### Hasil
-![DESC](ASET/DESC.png)
+![DESC](aset/DESC.png)
 ### Analisis Kesimpulan
 Perintah "DESCRIBE" digunakan dalam SQL untuk mendapatkan informasi tentang struktur kolom dalam sebuah  tabel. Ini berguna untuk mengetahui nama kolom, tipe data, dan batasan yang diterapkan pada kolom tersebut. Berikut adalah penjelasan mengenai penggunaan perintah "DESCRIBE":
 1. Kata "DESCRIBE" diikuti oleh nama tabel yang ingin di periksa. Misalnya, jika Anda ingin mengetahui informasi mengenai tabel dengan nama ===mobil===.
@@ -199,7 +199,7 @@ Perintah "DESCRIBE" digunakan dalam SQL untuk mendapatkan informasi tentang stru
 show tables;
 ```
 ### Hasil
-![SHOW](ASET/SHOW.png)
+![SHOW](aset/SHOW.png)
 ### Analisis Kesimpulan
 Perintah "SHOW TABLES" digunakan dalam SQL untuk menampilkan daftar tabel yang ada dalam basis data. Ini memungkinkan Anda melihat tabel-tabel yang telah dibuat sebelumnya.
 - Setelah menjalankan perintah "SHOW TABLES", Anda akan mendapatkan hasil yang menampilkan daftar tabel yang ada dalam basis data tersebut. Hasilnya dapat berupa daftar tabel dalam bentuk kolom tunggal atau kolom ganda, tergantung pada implementasi sistem manajemen basis data (DBMS) yang digunakan.
@@ -233,7 +233,7 @@ insert into pelanggan
 values (1, 'adel', 'hrv', '081243935227');
 ```
 ### Hasil
-![INSERT1](ASET/INSERT1.png)
+![INSERT1](aset/INSERT1.png)
 ### Analisis
  Perintah `INSERT INTO` dalam MySQL digunakan untuk menyisipkan data baru ke dalam sebuah tabel dalam basis data MySQL. Dengan perintah `(1, 'adel', 'hrv', '081243935227');`, kita dapat menambahkan baris-baris data baru ke dalam tabel yang telah kita tentukan.
 ### Kesimpulan
@@ -254,7 +254,7 @@ values (2, 'alwi', 'rizkyansyah', '0823456780'),
 	   (4, 'aril', 'haq', '0823456280');
 ```
 ### Hasil 
-![INSERT2](ASET/INSERT2.png)
+![INSERT2](aset/INSERT2.png)
 ### Analisis
  1. `insert into` merupakan perintah yang digunakan untuk menginput isi tabel
  2. `pelanggan` nama tabel yang akan di isi
@@ -275,7 +275,7 @@ insert into pelanggan
     -> (id_pelanggan, nama_depan, nama_belakang, no_telp) values (5, 'azikin', 'sofyan', '93629205');
 ```
 ### Hasil
-![INSERT3](ASET/INSERT3.png)
+![INSERT3](aset/INSERT3.png)
 ### Analisis 
 **kolom yang akan di isi :**
 - id_pelanggan: Nilai 5
@@ -298,7 +298,7 @@ select * from [nama tabel];
 select * from pelanggan;
 ```
 ### Hasil
-![SELECT1](ASET/SELECT1.png)
+![SELECT1](aset/SELECT1.png)
 ### Analisis
 - `SELECT * FROM` adalah perintah untuk melihat item tabel
 - `akun` adalah nama tabel yang datanya mau dilihat.
@@ -317,7 +317,7 @@ from [nama_tabel];
 select nama_depan from pelanggan;
 ```
 ### Hasil
-![SELECT](ASET/SELECT2.png)
+![SELECT](aset/SELECT2.png)
 ### Analisis
 untuk menampilkan data nama saja caranya yaitu menggunakan perintah `SELECT` kemudian diikuti oleh judul kolom yang ingin ditampilkan, yaitu `nama_depan` Kemudian di lanjutlan dengan mengetik perintah `FROM` dan diikuti dengan nama tabel. Dengan cara seperti ini kita telah menampilkan item data pada kolom `nama_depan` pada tabel `pelanggan`.
 ### Kesimpulan
@@ -336,7 +336,7 @@ where id=2;
 ```
 
 ### Hasil
-![WHERE](ASET/WHERE.png)
+![WHERE](aset/WHERE.png)
 ### Analisis
 1. `SELECT`: Kata kunci ini digunakan untuk menentukan kolom yang harus dikembalikan dalam kumpulan hasil. Dalam hal ini, kami memilih kolom nama_depan.
 2. `FROM`: Kata kunci ini digunakan untuk menentukan tabel dari mana kita ingin mengambil data. Dalam hal ini, kami mengambil data dari tabel pelanggan.
@@ -356,7 +356,7 @@ update nama_tabel set nama_kolom where kondisi;
 ```
 
 ##  Hasil
-![UPDATE](ASET/UPDATE.png)
+![UPDATE](aset/UPDATE.png)
 ## Analisis
 Dalam query ini, menggunakan perintah `UPDATE` untuk mengubah data yang sudah ada di tabel `pelanggan`. Dan menggunakan klausa `SET` untuk menentukan kolom yang ingin diubah dan nilai baru yang ingin diberikan. klausa `WHERE` digunakan untuk menentukan baris yang ingin diubah berdasarkan kondisi yang diberikan.
 ## Kesimpulan
@@ -374,7 +374,7 @@ delete from pelanggan where id_pelanggan="5";
 ```
 ## Contoh Query
 ## Hasil
-![DELETE](ASET/DELETE.png)
+![DELETE](aset/DELETE.png)
 ### Analisis 
 Ketika query ini dijalankan, hanya satu baris data yang akan dihapus, yaitu baris dengan `id_pelanggan` yang sama dengan `5`. Jika tidak ada data dengan `id_pelanggan` yang sama dengan `5`, maka tidak akan terjadi perubahan apa-apa pada tabel `pelanggan`.
 ### Kesimpulan
@@ -385,20 +385,13 @@ Query `DELETE FROM pelang WHERE id_pelanggan = "5"` digunakan untuk menghapus 
 ```mysql
 drop table [nama_tabel]
 ```
-
-insert into table_guru
-values
-(1,"Adrianty",null,"Pemrograman Web","Ketua Jurusan",34,"1982-06-29"),
-(2,"Ibrahim","Mallombasang","Basis Data","Kepala Sekolah",21,"2000-09-21"),
-(3,"Muhammad","Yusuf","Pemodelan Perangkat Lunak",null,28,"1992-12-24"),
-(4,"Rusdyansyar",null,"Pemrograman Berorientasi Objek","Asisten Kepala Sekolah",25,"1996-01-21");
 ## Contoh Query
 ```mysql
 drop table mobil;
 ```
 
 ## Hasil
-![DROP](ASET/DROP.png)
+![DROP](aset/DROP.png)
 ### Analisis
 Ketika query ini dijalankan, semua data dan struktur tabel mobil akan dihapus secara permanen dari database. Ini berarti bahwa data yang ada pada tabel mobil tidak dapat dikembalikan setelah tabel mobil dihapus.
 ### Kesimpulan

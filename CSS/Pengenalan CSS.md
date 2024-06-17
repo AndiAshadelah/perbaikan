@@ -66,9 +66,9 @@ button {
         }
 ```
 ### Before
-![[color1.png]]        
+![image](ASSET/color1.png)        
 ### After
-![[color2.png]]
+![image](ASSET/color2.png)
 
 >[! penjelasan]-
 >> color adalah
@@ -131,16 +131,18 @@ p {
 -  text-align:center ; Text akan ditampilkan di tengah-tengah dokumen.
 -  text-align:justify ; Text akan ditampilkan dengan mengikuti spasi yang ada di antara kata-kata.
 ### KODE PROGRAM
+```css
 css
 p {
 text-align: center;
 }
+```
 
 ### HASIL
 #### BEFORE
-![[potret11.png]]
+![image](ASSET/s1.png)
 #### AFTER
-![[potret12.png]]
+![image](ASSET/s2.png)
 ### KESIMPULAN
 dari kode program yang diberikan p { text-align: center; } adalah bahwa kode ini mengatur properti CSS text-align untuk elemen `<p>` (paragraf) dalam sebuah dokumen HTML. Dengan nilai center, semua teks dalam elemen `<p> `akan diatur ke tengah dari elemen tersebut.
 ## Text decoration
@@ -158,9 +160,9 @@ text-decoration: line-through;
 
 ### HASIL
 #### BEFORE
-![[potret11.png]]
+![image](ASSET/s1.png)
 #### AFTER
-![[potret13.png]]
+![image](ASSET/s3.png)
 ### KESIMPULAN
 Kesimpulan text-decoration: line-through; adalah bahwa teks yang diberi gaya dengan properti ini akan memiliki garis melintang di tengahnya, menunjukkan bahwa teks tersebut dianggap tidak relevan, usang, atau tidak berlaku lagi.
 ## Text transform
@@ -177,9 +179,9 @@ text-transform: uppercase;
 ```
 ### HASIL
 #### BEFORE
-![[potret11.png]]
+![image](ASSET/s4.png)
 #### AFTER
-![[potret15.png]]
+![image](ASSET/s1.png)
 ### KESIMPULAN
 Kesimpulan dari text-transform: uppercase; adalah bahwa teks yang diberi gaya dengan properti ini akan diubah menjadi huruf kapital semua.
 ## Text indent
@@ -188,15 +190,15 @@ Text indent atau indentasi teks adalah proses membuat jarak antara teks dengan m
 ### KODE PROGRAM
 ```css
 p {
-letter-spacing: 50px;
+text-indent: 100px
 }
 ```
 
 ### HASIL
 #### BEFORE
-![[potret11.png]]
+![[CSS/ASSET/s4.png]]
 #### AFTER
-![[potret16.png]]
+![[Pasted image 20240615113957.png]]
 ### KESIMPULAN
 Kesimpulan dari penggunaan properti CSS text-indent: 100px; adalah bahwa paragraf (elemen `<p>`) akan memiliki indentasi teks sebesar 100 piksel dari sisi kiri. ini digunakan untuk mengatur jarak atau spasi antara tepi kiri elemen paragraf dan teks di dalamnya.
 ## Letter spacing
@@ -211,9 +213,9 @@ letter-spacing: 50px;
 
 ### HASIL
 #### BEFORE
-![[potret11.png]]
+![image](ASSET/s4.png)
 #### AFTER
-![[potret17.png]]
+![image](ASSET/s5.png)
 ### KESIMPULAN
 Kesimpulan dari penggunaan properti CSS letter-spacing: 50px; adalah bahwa jarak antara setiap huruf dalam teks pada elemen `<p>` akan diperbesar sebesar 50 piksel. ini digunakan untuk mengatur spasi horizontal antara huruf-huruf dalam teks, menciptakan efek visual seperti peningkatan jarak antara huruf-huruf atau tampilan teks yang lebih terbaca dengan jelas.
 ## Line height
@@ -228,25 +230,26 @@ line-height: 150px;
 
 ### HASIL
 #### BEFORE
-![[potret11.png]]
+![image](ASSET/s4.png)
 #### AFTER
-![[potret18.png]]
+![image](ASSET/s6.png)
 ### ANALISIS
 Kesimpulan "line-height" diatur menjadi 150 piksel untuk elemen "p". "line-height" digunakan untuk mengatur jarak antara baris dalam elemen teks. nilai "150px" menunjukkan bahwa jarak antara setiap baris dalam elemen "p" akan menjadi 150 piksel.
 ## Word spacing
 ### PENJELASAN
 Word spacing merujuk pada pengaturan jarak antara kata dalam teks.
 ### KODE PROGRAM
-css
+```css
 p {
 word-spacing: 150px;
 }
+```
 
 ### HASIL
 #### BEFORE
-![[potret11.png]]
+![image](ASSET/s4.png)
 #### AFTER
-![[potret19.png]]
+![image](ASSET/s7.png)
 ### ANALISIS
 Kode word-spacing: 150px;, mengatur jarak antar kata dalam `<p>`elemen (paragraf) menjadi 150 piksel. Ini berarti akan ada jarak yang cukup besar antara setiap kata dalam paragraf, sehingga menciptakan tampilan visual yang berbeda. Properti ini dapat digunakan untuk berbagai tujuan desain, seperti membuat tata letak yang unik atau menekankan kata-kata individual.
 
@@ -258,7 +261,11 @@ Properti dalam CSS digunakan untuk mengatur latar belakang suatu elemen. Ini dap
 3. `background-image` : Properti ini digunakan untuk mengatur gambar sebagai latar belakang elemen. Itu dapat diatur ke URL file gambar.
 4. `background-position` : Properti ini digunakan untuk mengatur posisi gambar latar belakang.
 ## Kode Program
+```css
+background-color: red;
+```
 ## Hasil
+![image](ASSET/s8.png)
 ### Kesimpulan
 `background-color` digunakan untuk mengatur warna latar belakang elemen, dan dapat diatur menggunakan berbagai nilai.
 
@@ -284,7 +291,7 @@ Properti dalam CSS digunakan untuk mengatur latar belakang suatu elemen. Ini dap
    padding-top: 50px;
 ```
 ### Hasil
-![padd](asset/padding.png)
+![padd](ASSET/padding.png)
 ### Kesimpulan 
 Properti `padding` adalah properti CSS yang digunakan untuk menentukan jarak antara konten elemen dan garis batas elemen tersebut.
 ## MARGIN
@@ -309,7 +316,7 @@ Properti `padding` adalah properti CSS yang digunakan untuk menentukan jarak a
 }
 ```
 ### Hasil
-![margin](asset/margin.png)
+![margin](ASSET/margin.png)
 
 ### Kesimpulan 
 `margin` adalah properti singkatan untuk mengatur margin elemen di empat arah atas, kanan, bawah, dan kiri.
@@ -329,7 +336,7 @@ button {
 }
 ```
 ### Hasil
-![[border.png]]
+![image](ASSET/border.png)
 ### Kesimpulan 
 Properti menetapkan warna perbatasan menjadi ungu. Properti menetapkan lebar batas ke 15000px. Namun, nilai ini biasanya jauh lebih besar dari yang diperlukan dan mungkin tidak praktis secara visual.`border-color``border-width`    
 # LATIHAN BOX-MODEL
@@ -406,7 +413,7 @@ button {
 }
 ```
 ### Hasil
-![latihan1](asset/latihan1.png)
+![latihan1](ASSET/latihan1.png)
 ### Kesimpulan  
 
 # Transition
@@ -429,9 +436,9 @@ div:hover {
 ```
 ## Hasil
 ### Before
-![[transition1.png]]
+![image](ASSET/transition1.png)
 ### After
-![[transition2.png]]
+![image](ASSET/transition2.png)
 ## Kesimpulan
 Kesimpulannya, properti-properti transisi seperti `transition-property`, `transition-duration`, dan `transition-timing-function` digunakan bersama-sama untuk mengontrol efek transisi pada elemen-elemen di halaman web.
 # Transform
@@ -445,9 +452,9 @@ Fungsi mengubah ukuran elemen, dan nilainya berarti elemen tersebut akan diskala
 ```
 ## Hasil
 ### Before
-![[transfrom1.png]]
+![image](ASSET/transfrom1.png)
 ### After
-![[transfrom2.png]]
+![image](ASSET/transfrom2.png)
 # FLEX-BLOX
 ## FLEX-CONTAINER
 ### Penjelasan
@@ -469,7 +476,7 @@ Flex container adalah elemen induk yang mengatur tata letak flex item-nya. flexb
 }
 ```
 ### Hasil
-![[flexcon.png]]
+![image](ASSET/flexcon.png)
 ## FLEX-ITEM
 ### Penjelasan
  Dalam konteks Flexbox, elemen-elemen dianggap sebagai flex items (item fleksibel), dan mereka diatur dalam satu dimensi (baris atau kolom) menggunakan properti-properti Flexbox.
@@ -489,7 +496,7 @@ Flex container adalah elemen induk yang mengatur tata letak flex item-nya. flexb
 }
 ```
 ### Hasil 
-![[Pasted image 20240428152722.png]]
+![image](ASSET/flexcon3.png)
 ### Kesimpulan
 Kesimpulannya, dalam CSS Flexbox, elemen-elemen dianggap sebagai flex items (item fleksibel) dan dapat diatur menggunakan properti-properti Flexbox.
 # PSEUDO-CLASS
@@ -561,7 +568,7 @@ a:visited {
 </html>
 ```
 ### Hasil
-![[visited.jpeg]]
+![image](ASSET/visited.jpeg)
 # POSITION
 ## Position relative
 ### Penjelasan

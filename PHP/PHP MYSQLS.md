@@ -303,13 +303,3 @@ foreach ($select_after_delete as $key => $data) {
 **Kesimpulan:**
 Program PHP dan SQL di atas berfungsi untuk melakukan koneksi ke database, menjalankan query seleksi, menampilkan data sebelum penghapusan, menghapus data dalam tabel "daftar_mobil", dan menampilkan data setelah penghapusan. Program ini akan menampilkan nama-nama pemilik mobil sebelum dan setelah penghapusan yang dilakukan.
 Pastikan koneksi ke database telah berhasil dan struktur tabel "daftar_mobil" sesuai sebelum menjalankan program ini. Perhatikan bahwa program ini menghapus data dengan nomor plat tertentu yang ditentukan oleh nilai variabel `$no_plat_hapus`. Anda dapat mengubah nilai variabel tersebut sesuai dengan nomor plat yang ingin dihapus.
-# Session/Login
-**Kode Program:**
-**Hasil:**    
-**Analisis:**
-**Kesimpulan:**
-# Upload & Download
-**Kode Program:**
-**Hasil:**
-**Analisis:**
-**Kesimpulan:**

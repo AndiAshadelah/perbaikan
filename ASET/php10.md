@@ -1900,7 +1900,7 @@ fclose($output);
 exit;
 ```
 ### Hasil
-![IMGAE](ASET/php10.png)
+![IMGAE](ASET/php10 .png)
 ### Analisis
 1. Kode program ini merupakan halaman untuk mengekspor data siswa ke dalam format file Excel (.xls). 
 2. Pertama, program menyertakan file "koneksi.php" yang diduga berisi konfigurasi untuk koneksi ke database. 
