@@ -11,9 +11,11 @@
             "id": "66ac5934030fcf5f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240423142042.png"
+                "file": "pk/Praktikum.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240423142042.png",
+                "file": "pk/Praktikum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240423142042.png",
+                "file": "pk/Praktikum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240423142042.png"
+                "file": "pk/Praktikum.md"
               }
             }
           },
@@ -160,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,52 +177,52 @@
   },
   "active": "66ac5934030fcf5f",
   "lastOpenFiles": [
-    "Pasted image 20240529084402.png",
-    "Pasted image 20240529084036.png",
     "Pasted image 20240423142911.png",
     "Pasted image 20240423142042.png",
-    "PHP/PHP MYSQLS.md",
-    "PHP/PHP.md",
+    "pk/Praktikum.md",
     "ASET/php10.md",
-    "ASET",
-    "PHP/ASET/php1.png",
-    "PHP/ASET/d1.png",
-    "Pengenalan PHP (1).md",
+    "pk/Praktikum.pdf",
+    "PHP/PHP MYSQLS.md",
+    "PHP/PHP MYSQLS.pdf",
+    "PHP/PHP.md",
+    "PHP/PHP.pdf",
+    "PEMROGRAMAN WEB/PERTEMUAN 1.md",
+    "PEMROGRAMAN WEB/PEMROGRAMAN WEB.md",
+    "HTML/Hypertext Markup Language.md",
+    "HTML/Hypertext Markup Language.pdf",
+    "HTML/HTML.md",
+    "HTML/Pengenalan Web.md",
+    "HTML/Pengenalan Web.pdf",
+    "HTML/PERKENALAN HTML.md",
+    "HTML/PERKENALAN HTML.pdf",
+    "HTML/ASETHTML/tabeltugas1.png",
     "CSS/Pengenalan CSS.md",
-    "PHP/ASET/php5.png",
-    "PHP/ASET/php6.png",
-    "PHP/ASET/php10.png",
-    "php10.png.crdownload",
-    "PHP/ASET/d7.png",
-    "PHP/ASET/d6.png",
-    "php5.png.crdownload",
+    "CSS/Pengenalan CSS.pdf",
     "BASIS DATA/Alter.md",
-    "halo/CSS/ASET CSS/ass.mp4",
-    "halo/CSS/ASET CSS",
-    "BASIS DATA/ALTER.md",
-    "BASIS DATA/SELECT LANJUTAN.md",
+    "BASIS DATA/Alter.pdf",
     "BASIS DATA/Instalasi & Query Awal Database.md",
+    "BASIS DATA/Instalasi & Query Awal Database.pdf",
     "BASIS DATA/Pengenalan Basis Data.md",
+    "BASIS DATA/Pengenalan Basis Data.pdf",
+    "BASIS DATA/SELECT LANJUTAN.md",
+    "BASIS DATA/aset/t0.png",
+    "t6.png",
+    "BASIS DATA/aset/t5.png",
+    "BASIS DATA/aset/t7.png",
+    "BASIS DATA/aset/t4.png",
+    "BASIS DATA/aset/t3.png",
+    "BASIS DATA/aset/t2.png",
+    "BASIS DATA/aset/t1.png",
+    "Pengenalan PHP (1).md",
+    "BASIS DATA/ALTER.md",
     "BASIS DATA/BASIS DATA.md",
     "halo/CSS/Pengenalan CSS.md",
-    "HTML/PERKENALAN HTML.md",
-    "halo/CSS/assets",
     "halo/CSS/EKSPLORASI CSS.md",
     "halo/CSS/CSS Responsive.md",
     "halo/CSS/Bootstrap Framework.md",
-    "halo/CSS",
-    "halo",
-    "pk/Praktikum.md",
-    "pk/asetklm",
-    "pk",
     "Praktikum.md",
     "CSS.md",
     "PHP MySql.md",
-    "Pengenalan CSS.md",
-    "Pengenalan PHP.md",
-    "ASSET/hover.md",
-    "CSS/CSS.md",
-    "CSS/Css Responsive/CSS Responsive.md",
     "Untitled.canvas"
   ]
 }

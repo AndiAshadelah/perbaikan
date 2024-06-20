@@ -305,7 +305,7 @@ if ($nilai >= 80) {
 ```
 ```
 ### Hasil
-![IMAGE](aseT/p1.png)
+![IMAGE](ASET/p1.png)
 ### Analisis
 Dalam analisis, program akan mengevaluasi kondisi secara berurutan. Jika `$nilai` lebih besar atau sama dengan 80, program akan menampilkan pesan "Selamat! Anda lulus dengan nilai yang baik.". Jika ya, program akan menampilkan pesan "Anda lulus.". Jika kedua kondisi sebelumnya tidak terpenuhi, program akan menjalankan blok kode dalam pernyataan `else` dan menampilkan pesan "Maaf, Anda tidak lulus.".
 ### Kesimpulan
@@ -338,7 +338,7 @@ if ($nilai >= 80) {
 }
 ```
 ### Hasil
-![IMAGE](aseT/p2.png)
+![IMAGE](ASET/p2.png)
 ### Analisis
 program akan mengevaluasi kondisi secara berurutan. Jika `$nilai` lebih besar atau sama dengan 80, program akan menampilkan pesan "Selamat! Anda lulus dengan nilai yang baik.". Jika kondisi tersebut tidak terpenuhi, program akan melanjutkan ke pernyataan `elseif` dan memeriksa apakah `$nilai` lebih besar atau sama dengan 60. Jika ya, program akan menampilkan pesan "Anda lulus.". Jika kedua kondisi sebelumnya tidak terpenuhi, program akan menjalankan blok kode dalam pernyataan `else` dan menampilkan pesan "Maaf, Anda tidak lulus.".
 ### Kesimpulan
@@ -393,7 +393,7 @@ switch ($bulan) {
 }
 ```
 ### Hasil
-![IMAGE](aseT/p3.png)
+![IMAGE](ASET/p3.png)
 ### Analisis
 program akan mengevaluasi nilai `$bulan` dan menjalankan blok kode di case yang sesuai. Jika nilai input adalah 1, program akan menampilkan "Januari". Jika nilai input adalah 2, program akan menampilkan "Februari". Jika nilai input adalah 3, program akan menampilkan "Maret". Proses ini berlanjut untuk nilai-nilai input bulan lainnya yang telah ditentukan dalam case-case. Jika nilai input tidak sama dengan nilai-nilai yang telah ditentukan dalam case-case, program akan menjalankan blok kode dalam pernyataan `default` dan menampilkan "Bulan tidak valid".
 ### Kesimpulan
@@ -455,7 +455,7 @@ if (in_array("orange", $fruits)) {
 ?>
 ```
 ### Hasil
-![IMAGE](aseT/p4.png)
+![IMAGE](ASET/p4.png)
 ### Analisis
 Program ini menggunakan array satu dimensi untuk menyimpan dan mengelola daftar buah-buahan. Melalui program ini, kita dapat mengakses, mengubah, menambahkan, dan menghapus elemen-elemen dalam array. Program ini juga memperlihatkan cara melakukan iterasi melalui elemen-elemen array menggunakan loop `for` dan `foreach`. Fungsi seperti `count()`, `array_search()`, dan `in_array()` digunakan untuk melakukan operasi penghitungan, pencarian, dan pemeriksaan keberadaan elemen dalam array. Keseluruhan program ini memberikan fleksibilitas dalam memanipulasi dan memanfaatkan data dalam bentuk array satu dimensi.
 ### Kesimpulan
@@ -500,7 +500,7 @@ foreach ($users as $user) {
 }
 ```
 ### Hasil
-![IMAGE](aseT/p5.png)
+![IMAGE](ASET/p5.png)
 ### Analisis
 - Program menggunakan array asosiatif untuk menyimpan data pengguna. Setiap elemen dalam array memiliki kunci (key) berupa `username`, `email`, dan `age`.
 - Loop `foreach` digunakan untuk mengiterasi melalui setiap elemen array. Variabel `$user` akan berisi elemen array saat ini.
@@ -548,7 +548,7 @@ for ($i = 0; $i < count($matrix); $i++) {
 ?>
 ```
 ### Hasil  
-![IMAGE](aseT/p6.png)
+![IMAGE](ASET/p6.png)
 ### Analisis
 1. Baris 3-8: Array multidimensi `$matrix` diinisialisasi dengan tiga elemen array dalam tanda kurung siku ganda. Setiap elemen array tersebut mewakili baris dalam matriks, dan elemen-elemen dalam setiap baris mewakili nilai-nilai dalam kolom.
 
@@ -579,7 +579,7 @@ var_dump($age);
 var_dump($grades);
 ```
 ### Hasil
-![IMAGE](aseT/P7.png)
+![IMAGE](ASET/P7.png)
 ### Analisis
 - `$name` adalah variabel dengan tipe data string yang berisi nilai "John". Output `var_dump($name)` menunjukkan bahwa variabel tersebut adalah string dengan panjang 4 karakter.
 - `$age` adalah variabel dengan tipe data integer yang berisi nilai 25. Output `var_dump($age)` menunjukkan bahwa variabel tersebut adalah integer.
@@ -609,7 +609,7 @@ for ($i = 1; $i <= 10; $i++) {
 }
 ```
 ### Hasil
-![IMAGE](aseT/p8.png)
+![IMAGE](ASET/p8.png)
 ### Analisis
 loop for yang akan dijalankan sebanyak 10 kali. Variabel `$i` akan dimulai dari nilai 1 dan akan terus ditingkatkan nilainya hingga mencapai atau sama dengan 10. Setiap kali iterasi dilakukan, nilai `$i` akan dicetak menggunakan perintah `echo`.
 ### Kesimpulan
@@ -633,7 +633,7 @@ while ($i <= 10) {
 }
 ```
 ### Hasil
-![IMAGE](aseT/p9.png)
+![IMAGE](ASET/p9.png)
 ### Analisis
 loop while yang akan dijalankan selama nilai `$i` kurang dari atau sama dengan 10. Variabel `$i` diinisialisasi dengan nilai 1 sebelum memasuki loop. Setiap kali iterasi dilakukan, nilai `$i` akan dicetak menggunakan perintah `echo`, diikuti oleh spasi. Setelah itu, nilai `$i` akan ditambahkan 1 menggunakan operator increment `$i++`.
 ### Kesimpulan

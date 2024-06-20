@@ -409,7 +409,7 @@ Contoh :
         </table>
 ```
 Hasil : 
-![TGS1](ASETHTML/tabeltugas.png)
+![TGS1](ASETHTML/tabeltugas1.png)
 ## FORM
 Elemen `<form>` HTML digunakan untuk mendefinisikan form yang digunakan untuk mengumpulkan inputan dari pengguna website. Tag ini digunakan untuk mengkoleksi inputan dari user, konsep ini sama seperti konsep formulir di dunia nyata.
 

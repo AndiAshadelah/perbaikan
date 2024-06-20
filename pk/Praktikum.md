@@ -16,7 +16,7 @@ City = (SELECT City FROM Employees WHERE LastName = 'Callahan');
 - `WHERE` kondisi yang harus di penuhi suatu data agar dapat di tampilkan
 - `(City = (SELECT FROM Employees WHERE LastName = 'Callahan'))` merupakan kondisi dari where yang di penuhi
 Hasilnya:
-Kita disuruh mencari semua pegawai yang memiliki kota yang sama dengan pegawa yang bernama `Callahan` jika kita memasukkan query di subquery akan muncul kata dari pegawai `Callahan` `(SELECT City FROM Employees WHERE LastName = "Callahan")` kota tersebut adalah `Seattle` karena kita misalnya belum mengetahui kotanya atau bisa jadi kotanya beda dari seattle kita langsung memakai subquery tersbut agar tidak harus mencarinya satu persatu jadi nanti querynya akan menampilkan semua kolom pada tabel Employees dengan kondisi nama kolomnya sama dengan kota dari pegawai Callahan yaitu Seattle yang muncul adalah pegawai Davollo dan Callahan karena memenuhi kondisi kotanya sama dengan Callahan.
+Kita disuruh mencari semua pegawai yang memiliki kota yang sama dengan pegawa yang bernama `Callahan` jika kita memasukkan query di subquery akan muncul kata dari pegawai `Callahan` `(SELECT City FROM Employees WHERE LastName = "Callahan")` kota tersebut adalah `Seattle` karena kita misalnya belum mengetahui kotanya atau bisa jadi kotanya beda dari seattle kita langsung memakai subquery tersbut agar tidak harus mencarinya satu persatu jadi nanti querynya akan menampilkan semua kolom pada tabel Employe es dengan kondisi nama kolomnya sama dengan kota dari pegawai Callahan yaitu Seattle yang muncul adalah pegawai Davollo dan Callahan karena memenuhi kondisi kotanya sama dengan Callahan.
 # Query 2
 ```sql
 SELECT * FROM Employees WHERE

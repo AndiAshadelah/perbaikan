@@ -30,9 +30,9 @@
 ```
 
 ## Before
-![first][ASSET/first.png]
+![first](ASSET/first.png)
 ## After
-![SEKEN][ASSET/seken.png]
+![SEKEN](ASSET/seken.png)
 >[! Penjelasan]-
 >> kode CSS ditempatkan di dalam tag `<style>` yang berisi rule CSS untuk mengubah warna teks pada semua elemen `<p>` menjadi merah. Kemudian, kode HTML berisi dua elemen `<p>` dengan teks "welcome css!".
 # Percobaan Kedua
@@ -50,7 +50,7 @@ button {
 ![font](ASSET/fontsize1.png)
 
 ### After
-![fonts](asset/fontsize2.png)
+![fonts](ASSET/fontsize2.png)
 
 >[! penjelasan]-
 >> font-size adalah untuk mengatur ukuran font pada property value yang ingin di eksekusi
@@ -522,7 +522,7 @@ a:hover {
 </html>
 ```
 ### Hasil
-![hover][ASSET/hover.jpeg]
+![hover](ASSET/hover.jpeg)
 
 ## Active
 ### Penjelasan 
@@ -545,7 +545,7 @@ a:active {
 </html>
 ```
 ### Hasil
-![ACTIVE][ASSET/active.jpeg]
+![ACTIVE](ASSET/active.jpeg)
 
 ## Visited
 ### Penjelasan
@@ -578,7 +578,7 @@ a:visited {
 .box { position: relative; top: 10px; left: 10px; width: 100px; height: 100px; background-color: red; }
 ``` 
 ### Hasil
-![relative][ASSET/relative.png]
+![relative](ASSET/relative.png)
 ### Kesimpulan
 memungkinkan pengguna untuk mengatur posisi elemen dengan properti top, right, bottom, atau left
 ## Position absolute
@@ -589,7 +589,7 @@ memungkinkan pengguna untuk mengatur posisi elemen dengan properti top, right, b
 .box { position: absolute; top: 10px; left: 10px; width: 100px; height: 100px; background-color: red; }
 ```
 ### Hasil
-![absolute][ASSET/absolute.png]
+![absolute](ASSET/absolute.png)
 
 ### Kesimpulan
  hanya berpengaruh pada elemen yang diatur, tidak akan berpengaruh pada posisi elemen lain.
@@ -606,7 +606,7 @@ memungkinkan pengguna untuk mengatur posisi elemen dengan properti top, right, b
 }
 ```
 ### Hasil
-![sfixed][ASSET/fixed.png]
+![sfixed](ASSET/fixed.png)
 
 ### Kesimpulan
 Untuk menetapkan posisi suatu elemen
@@ -625,7 +625,7 @@ Posisi sticky adalah cara efektif untuk mengubah posisi elemen dengan kecil atau
 ```
 
 ### Hasil
-![sticky][ASSET/sticky.png]
+![sticky](ASSET/sticky.png)
 ### Kesimpulan
 `position`: sticky akan bergulir seperti normal hingga mencapai titik tertentu
 
@@ -671,7 +671,7 @@ Posisi sticky adalah cara efektif untuk mengubah posisi elemen dengan kecil atau
 </html>
 ```
 ## Hasil
-![tantangan1][ASSET/tantangan1.png]
+![tantangan1](ASSET/tantangan1.png)
 ## Kesimpulan
 Terdapat sebuah `<div>` dengan kelas "container" yang berperan sebagai wadah utama.
 - Di dalam `<div>` tersebut terdapat dua elemen lainnya.
@@ -810,7 +810,7 @@ Terdapat sebuah `<div>` dengan kelas "container" yang berperan sebagai wadah u
 ```
 
 ## Hasil
-![positions][ASSET/positions.jpeg]
+![positions](ASSET/positions.jpeg)
 ## Kesimpulan
 Kesimpulan dari kode HTML yang Anda berikan adalah sebagai berikut:
 
@@ -907,7 +907,7 @@ button:hover {
 }
 ```
 ## Hasil
-![tantangan1][ASSET/tantangan1.png]
+![tantangan1](ASSET/tantangan1.png)
 
 ## Kesimpulan
 - Latar belakang body akan memiliki warna RGB (248, 210, 163) yang merupakan kombinasi dari merah, hijau, dan biru.
