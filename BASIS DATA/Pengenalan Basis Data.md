@@ -32,4 +32,4 @@ Data Siswa XI RPL 1 :
 - **Field** dalam basis data merujuk kepada komponen terkecil dari sebuah record atau tupel dalam tabel.
 - **Data Value** dalam basis data merujuk kepada nilai konkret yang disimpan dalam field atau atribut dalam suatu record 
 
-![imgae](aset/struktur.jpg)
+![imgae](struktur.jpg)

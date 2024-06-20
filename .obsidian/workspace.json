@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pk/Praktikum.md",
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pk/Praktikum.md",
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pk/Praktikum.md",
+                "file": "BASIS DATA/SELECT LANJUTAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pk/Praktikum.md"
+                "file": "BASIS DATA/SELECT LANJUTAN.md"
               }
             }
           },
@@ -177,14 +177,25 @@
   },
   "active": "66ac5934030fcf5f",
   "lastOpenFiles": [
-    "Pasted image 20240423142911.png",
-    "Pasted image 20240423142042.png",
+    "BASIS DATA/Instalasi & Query Awal Database.md",
+    "BASIS DATA/ASET/r1.png",
+    "BASIS DATA/SELECT LANJUTAN.md",
+    "BASIS DATA/ASET/r6.png",
+    "BASIS DATA/ASET/r8.png",
+    "BASIS DATA/ASET/r3.png",
+    "BASIS DATA/ASET/r4.png",
+    "BASIS DATA/ASET/r2.png",
+    "BASIS DATA/ASET/r20.png",
+    "BASIS DATA/ASET/r10.png",
+    "PHP/PHP.md",
+    "PHP/ASET/j1.png",
+    "HTML/coba.html",
     "pk/Praktikum.md",
+    "Pasted image 20240423142911.png",
     "ASET/php10.md",
     "pk/Praktikum.pdf",
     "PHP/PHP MYSQLS.md",
     "PHP/PHP MYSQLS.pdf",
-    "PHP/PHP.md",
     "PHP/PHP.pdf",
     "PEMROGRAMAN WEB/PERTEMUAN 1.md",
     "PEMROGRAMAN WEB/PEMROGRAMAN WEB.md",
@@ -195,24 +206,12 @@
     "HTML/Pengenalan Web.pdf",
     "HTML/PERKENALAN HTML.md",
     "HTML/PERKENALAN HTML.pdf",
-    "HTML/ASETHTML/tabeltugas1.png",
     "CSS/Pengenalan CSS.md",
     "CSS/Pengenalan CSS.pdf",
     "BASIS DATA/Alter.md",
     "BASIS DATA/Alter.pdf",
-    "BASIS DATA/Instalasi & Query Awal Database.md",
     "BASIS DATA/Instalasi & Query Awal Database.pdf",
     "BASIS DATA/Pengenalan Basis Data.md",
-    "BASIS DATA/Pengenalan Basis Data.pdf",
-    "BASIS DATA/SELECT LANJUTAN.md",
-    "BASIS DATA/aset/t0.png",
-    "t6.png",
-    "BASIS DATA/aset/t5.png",
-    "BASIS DATA/aset/t7.png",
-    "BASIS DATA/aset/t4.png",
-    "BASIS DATA/aset/t3.png",
-    "BASIS DATA/aset/t2.png",
-    "BASIS DATA/aset/t1.png",
     "Pengenalan PHP (1).md",
     "BASIS DATA/ALTER.md",
     "BASIS DATA/BASIS DATA.md",

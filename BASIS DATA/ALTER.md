@@ -5,7 +5,7 @@
 ```
 `After` Opsional untuk digunakan, jika tidak menggunakan klausa ini maka secara default kolom yang dibuat akan berada di akhir. Jika kolom ingin ditaruh pada awal kolom maka gunakan klausa `First`. dan hasilnya sebagai berikut:
 ## Hasil
-![imgae](aset/a1.png)
+![imgae](a1.png)
 ## Analisis
 1. `ALTER TABLE mobil`: Ini adalah perintah untuk mengubah struktur tabel "mobil". Perintah ALTER TABLE digunakan untuk menambahkan, mengubah, atau menghapus kolom atau indeks dari sebuah tabel yang sudah ada.
 2. `ADD batas_peminjam varchar(10)`: Ini adalah bagian perintah yang menambahkan kolom baru bernama "batas_peminjam" ke tabel "mobil". Kolom ini memiliki tipe data VARCHAR dengan panjang maksimum 10 karakter. VARCHAR adalah tipe data yang digunakan untuk menyimpan teks atau string dengan panjang yang dapat bervariasi.
@@ -20,7 +20,7 @@ Selain itu, analisis tersebut juga menekankan pentingnya modularitas dan keterba
 update mobil set batas_peminjam="2024-04-24" where peminjam is not null;
 ```
 ## Hasil
-![imgae](aset/a2.png)
+![imgae](a2.png)
 ## Kesimpulan
 Pernyataan `UPDATE` digunakan untuk memperbarui nilai kolom dalam tabel. Dalam pernyataan SQL ini, tabel yang diubah adalah "mobil".
 Perintah `SET batas_peminjam="2024-04-24"` berarti kita ingin mengubah nilai kolom "batas_peminjam" menjadi tanggal "2024-04-24" untuk baris-baris yang memenuhi kondisi tertentu.
@@ -32,7 +32,7 @@ Contoh Query
 ALTER TABLE mobil CHANGE batas_peminjam deadline varchar(10);
 ```
 ## Hasil
-![imgae](aset/a3.png)
+![imgae](a3.png)
 ## Analisis
 1. `ALTER TABLE mobil`: Ini adalah perintah untuk mengubah struktur tabel "mobil". Perintah ALTER TABLE digunakan untuk menambahkan, mengubah, atau menghapus kolom atau indeks dari sebuah tabel yang sudah ada.
 2. `CHANGE batas_peminjam deadline varchar(10)`: Bagian ini mengindikasikan perubahan kolom yang dilakukan. Kolom "batas_peminjam" akan diubah namanya menjadi "deadline", dan tipe datanya akan menjadi VARCHAR dengan panjang maksimum 10 karakter. Dengan menggunakan perintah `CHANGE`, kita dapat mengubah nama kolom dan tipe datanya sekaligus.
@@ -46,7 +46,7 @@ Perubahan ini dapat berguna jika ada kebutuhan untuk mengganti nama kolom yang l
 ALTER TABLE mobil RENAME TO daftar_mobil;
 ```
 ## Hasil
-![imgae](aset/a4.png)
+![imgae](a4.png)
 ## Analisis
 1. `ALTER TABLE mobil`: Ini adalah perintah untuk mengubah struktur tabel "mobil". Perintah ALTER TABLE digunakan untuk menambahkan, mengubah, atau menghapus kolom atau indeks dari sebuah tabel yang sudah ada.
 2. `RENAME TO daftar_mobil`: Bagian ini menunjukkan perubahan nama yang dilakukan pada tabel. Dalam hal ini, tabel "mobil" akan diubah namanya menjadi "daftar_mobil".
@@ -61,7 +61,7 @@ ALTER TABLE mobil MODIFY deadline DATE;
 ```
 
 ## Hasil
-![imgae](aset/a5.png)
+![imgae](a5.png)
 ## Analisis
 1. `ALTER TABLE mobil`: Ini adalah perintah untuk mengubah struktur tabel "mobil". Perintah ALTER TABLE digunakan untuk menambahkan, mengubah, atau menghapus kolom atau indeks dari sebuah tabel yang sudah ada.
 2. `MODIFY deadline DATE`: Bagian ini menunjukkan modifikasi yang dilakukan pada kolom "deadline". Dalam hal ini, tipe data kolom "deadline" akan diubah menjadi DATE. Tipe data DATE digunakan untuk menyimpan tanggal dalam format YYYY-MM-DD.
@@ -76,7 +76,7 @@ ALTER TABLE mobil
     -> ALTER deadline SET DEFAULT 'Ready';
 ```
 ## Hasil
-![imgae](aset/a6.png)
+![imgae](a6.png)
 ## Analisi
 1. `ALTER TABLE mobil`: Ini adalah perintah untuk mengubah struktur tabel "mobil". Perintah ALTER TABLE digunakan untuk menambahkan, mengubah, atau menghapus kolom atau indeks dari sebuah tabel yang sudah ada.
 2. `ALTER deadline SET DEFAULT 'Ready'`: Bagian ini menunjukkan modifikasi yang dilakukan pada kolom "deadline". Dalam hal ini, kita menetapkan nilai default 'Ready' untuk kolom "deadline". Artinya, jika tidak ada nilai yang diberikan saat memasukkan data baru ke dalam tabel "mobil" untuk kolom "deadline", maka nilai default 'Ready' akan digunakan.
@@ -92,7 +92,7 @@ INSERT INTO mobil
     -> values (7,"B 4532 H","RPL2122","Hitam","Valen",NULL,100000);
 ```
 Hasil
-![imgae](aset/a7.png)
+![imgae](a7.png)
 ## Kesimpulan
 Dengan pernyataan SQL di atas, data baru akan dimasukkan ke dalam tabel "mobil". Data tersebut mencakup nilai-nilai untuk kolom-kolom yang ditentukan, seperti "id_pelanggan", "no_plat", "no_mesin", "warna", "pemilik", "peminjam", dan "harga_rental".
 Perintah INSERT INTO digunakan untuk memasukkan data baru ke dalam tabel, dan dengan menyediakan nilai-nilai yang sesuai, baris baru akan ditambahkan ke tabel "mobil" dengan informasi yang diberikan.
@@ -104,7 +104,7 @@ ALTER TABLE daftar_mobil
 -> ALTER deadline DROP DEFAULT;
 ```
 Hasil
-![imgae](aset/a8.png)
+![imgae](a8.png)
 ## Analisis
 1. `ALTER TABLE daftar_mobil`: Ini adalah perintah untuk mengubah struktur tabel "daftar_mobil". Perintah ALTER TABLE digunakan untuk menambahkan, mengubah, atau menghapus kolom atau indeks dari sebuah tabel yang sudah ada.
 2. `ALTER deadline DROP DEFAULT`: Bagian ini menunjukkan modifikasi yang dilakukan pada kolom "deadline". Dalam hal ini, kita menghapus nilai default yang sebelumnya ditetapkan untuk kolom "deadline".

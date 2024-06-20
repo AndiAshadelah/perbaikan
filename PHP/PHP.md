@@ -916,7 +916,7 @@ var_dump($_POST);
 ```
 #### Hasil
 
-![IMGAE](ASET/php27.png)
+![IMAGE](ASET/j1.png)
 
 # Koneksi Database
 ## Penjelasan  
