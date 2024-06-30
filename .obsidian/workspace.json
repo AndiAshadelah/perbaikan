@@ -13,7 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASIS DATA/SELECT LANJUTAN.md",
+                "file": "HTML/PERKENALAN HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fb4b7072fb033dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERBAIKAN/HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6ba86ba780ea29d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERBAIKAN/HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d961d2439593b83e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Pengenalan CSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbd8ff0b5311bb45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERBAIKAN/PHP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a07720c7707c70d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERBAIKAN/BASIS DATA.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -105,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BASIS DATA/SELECT LANJUTAN.md",
+                "file": "PERBAIKAN/BASIS DATA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BASIS DATA/SELECT LANJUTAN.md",
+                "file": "PERBAIKAN/BASIS DATA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BASIS DATA/SELECT LANJUTAN.md"
+                "file": "PERBAIKAN/BASIS DATA.md"
               }
             }
           },
@@ -175,53 +236,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66ac5934030fcf5f",
+  "active": "a07720c7707c70d6",
   "lastOpenFiles": [
+    "q",
+    "HTML/CSS/Bootstrap/assets/btc-95.png",
+    "HTML/CSS/Bootstrap/assets/btc-94.png",
+    "HTML/CSS/Bootstrap/assets/laravel-7.png",
+    "HTML/CSS/Bootstrap/assets/btc-93.png",
+    "HTML/CSS/Bootstrap/assets/btc-91.png",
+    "HTML/CSS/Bootstrap/assets/btc-90.png",
+    "HTML/CSS/Bootstrap/assets/btc-92.png",
+    "HTML/CSS/Bootstrap/assets/btc-9.png",
+    "HTML/CSS/Bootstrap/assets/btc-89.png",
+    "HTML/CSS/Bootstrap/assets/btc-88.png",
+    "HTML/CSS/Bootstrap/Bootstrap Framework.pdf",
+    "HTML/CSS/Css Responsive/CSS Responsive.pdf",
+    "HTML/CSS/Css Responsive/CSS Responsive.md",
+    "HTML/CSS/Css Responsive/assets",
+    "HTML/CSS/Bootstrap/Bootstrap Framework.md",
+    "HTML/CSS/Bootstrap/assets",
+    "HTML/CSS/Pengenalan CSS.pdf",
+    "HTML/CSS/Pengenalan CSS.md",
+    "HTML/CSS/Css Responsive",
+    "HTML/CSS/Bootstrap",
+    "HTML/CSS/ASSET",
+    "HTML/CSS",
+    "HTML/BASIS DATA/ASET/ASET.md",
+    "HTML/BASIS DATA/Pengenalan Basis Data.md",
+    "HTML/BASIS DATA/Pengenalan Basis Data.pdf",
+    "HTML/BASIS DATA/SELECT LANJUTAN.md",
+    "HTML/BASIS DATA/Instalasi & Query Awal Database.md",
+    "HTML/BASIS DATA/Alter.md",
+    "HTML/BASIS DATA/BASIS DATA.md",
     "BASIS DATA/Instalasi & Query Awal Database.md",
-    "BASIS DATA/ASET/r1.png",
-    "BASIS DATA/SELECT LANJUTAN.md",
-    "BASIS DATA/ASET/r6.png",
-    "BASIS DATA/ASET/r8.png",
-    "BASIS DATA/ASET/r3.png",
-    "BASIS DATA/ASET/r4.png",
-    "BASIS DATA/ASET/r2.png",
-    "BASIS DATA/ASET/r20.png",
-    "BASIS DATA/ASET/r10.png",
+    "PERBAIKAN/BASIS DATA.md",
+    "PERBAIKAN/PHP.md",
     "PHP/PHP.md",
-    "PHP/ASET/j1.png",
-    "HTML/coba.html",
-    "pk/Praktikum.md",
-    "Pasted image 20240423142911.png",
-    "ASET/php10.md",
-    "pk/Praktikum.pdf",
-    "PHP/PHP MYSQLS.md",
-    "PHP/PHP MYSQLS.pdf",
-    "PHP/PHP.pdf",
+    "PERBAIKAN/CSS.md",
+    "CSS/Pengenalan CSS.md",
+    "PERBAIKAN/HTML.md",
+    "PERBAIKAN/CSS.md",
+    "PERBAIKAN/Untitled.md",
+    "HTML/PERKENALAN HTML.md",
+    "HTML/Pengenalan Web.md",
+    "HTML/HTML.md",
     "PEMROGRAMAN WEB/PERTEMUAN 1.md",
     "PEMROGRAMAN WEB/PEMROGRAMAN WEB.md",
-    "HTML/Hypertext Markup Language.md",
-    "HTML/Hypertext Markup Language.pdf",
-    "HTML/HTML.md",
-    "HTML/Pengenalan Web.md",
-    "HTML/Pengenalan Web.pdf",
-    "HTML/PERKENALAN HTML.md",
-    "HTML/PERKENALAN HTML.pdf",
-    "CSS/Pengenalan CSS.md",
-    "CSS/Pengenalan CSS.pdf",
+    "BASIS DATA/SELECT LANJUTAN.md",
     "BASIS DATA/Alter.md",
-    "BASIS DATA/Alter.pdf",
-    "BASIS DATA/Instalasi & Query Awal Database.pdf",
-    "BASIS DATA/Pengenalan Basis Data.md",
-    "Pengenalan PHP (1).md",
-    "BASIS DATA/ALTER.md",
-    "BASIS DATA/BASIS DATA.md",
-    "halo/CSS/Pengenalan CSS.md",
-    "halo/CSS/EKSPLORASI CSS.md",
-    "halo/CSS/CSS Responsive.md",
-    "halo/CSS/Bootstrap Framework.md",
-    "Praktikum.md",
-    "CSS.md",
-    "PHP MySql.md",
     "Untitled.canvas"
   ]
 }
