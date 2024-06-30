@@ -8,7 +8,7 @@
 2. Property: `color` - Ini  ```[menentukan properti yang akan diubah oleh rule ini. Dalam hal ini, properti yang diubah adalah warna teks.]```
 3. Value: `red` - Ini menentukan nilai dari properti yang akan digunakan. Dalam hal ini, nilai properti "color" adalah "red", yang berarti teks akan menjadi merah.
 
-![anatomi](anatomi.png)
+![anatomi](ASET/anatomi.png)
 
 # Cara pemanggilan CSS
 1. **External Metode:** Ini merupakan cara paling umum untuk menggunakan CSS. Dalam external metode, Anda menuliskan seluruh kode CSS dalam file CSS terpisah, dan memanggilnya di dalam file HTML menggunakan tag `<link>` di dalam tag `<head>` HTML.
@@ -77,9 +77,9 @@ text-align: center;
 ```
 ### HASIL
 #### BEFORE
-![image](PERBAIKAN/ASSET/s1.png)
+![image](ASET/s1.png)
 #### AFTER
-![image](PERBAIKAN/ASSET/s2.png)
+![image](ASET/s2.png)
 ### KESIMPULAN
 dari kode program yang diberikan p { text-align: center; } adalah bahwa kode ini mengatur properti CSS text-align untuk elemen `<p>` (paragraf) dalam sebuah dokumen HTML. Dengan nilai center, semua teks dalam elemen `<p> `akan diatur ke tengah dari elemen tersebut.
 
@@ -95,7 +95,7 @@ Properti dalam CSS digunakan untuk mengatur latar belakang suatu elemen. Ini dap
 background-color: red;
 ```
 ## Hasil
-![image](PERBAIKAN/ASSET/s8.png)
+![image](ASET/s8.png)
 ### Kesimpulan
 `background-color` digunakan untuk mengatur warna latar belakang elemen, dan dapat diatur menggunakan berbagai nilai.
 # BOX-MODEL
@@ -120,7 +120,7 @@ background-color: red;
    padding-top: 50px;
 ```
 ### Hasil
-![padd](padding.png)
+![padd](ASET/padding.png)
 ### Kesimpulan 
 Properti `padding` adalah properti CSS yang digunakan untuk menentukan jarak antara konten elemen dan garis batas elemen tersebut.
 ## MARGIN
@@ -145,7 +145,7 @@ Properti `padding` adalah properti CSS yang digunakan untuk menentukan jarak a
 }
 ```
 ### Hasil
-![margin](margin.png)
+![margin](ASET/margin.png)
 
 ### Kesimpulan 
 `margin` adalah properti singkatan untuk mengatur margin elemen di empat arah atas, kanan, bawah, dan kiri.
@@ -164,7 +164,7 @@ button {
 }
 ```
 ### Hasil
-![image](border.png)
+![image](ASET/border.png)
 ### Kesimpulan 
 Properti menetapkan warna perbatasan menjadi ungu. Properti menetapkan lebar batas ke 15000px. Namun, nilai ini biasanya jauh lebih besar dari yang diperlukan dan mungkin tidak praktis secara visual.`border-color``border-width`    
 
@@ -188,9 +188,9 @@ div:hover {
 ```
 ## Hasil
 ### Before
-![image](transition1.png)
+![image](ASET/transition1.png)
 ### After
-![image](transition2.png)
+![image](ASET/transition2.png)
 ## Kesimpulan
 Kesimpulannya, properti-properti transisi seperti `transition-property`, `transition-duration`, dan `transition-timing-function` digunakan bersama-sama untuk mengontrol efek transisi pada elemen-elemen di halaman web.
 # Transform
@@ -204,9 +204,9 @@ Fungsi mengubah ukuran elemen, dan nilainya berarti elemen tersebut akan diskala
 ```
 ## Hasil
 ### Before
-![image](transfrom1.png)
+![image](ASET/transfrom1.png)
 ### After
-![image](transfrom2.png)
+![image](ASET/transfrom2.png)
 # FLEX-BLOX
 ## FLEX-CONTAINER
 ### Penjelasan
@@ -228,4 +228,4 @@ Flex container adalah elemen induk yang mengatur tata letak flex item-nya. flexb
 }
 ```
 ### Hasil
-![image](flexcon.png)
+![image](ASET/flexcon.png)
